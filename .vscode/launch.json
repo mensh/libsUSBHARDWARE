@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Cortex debug",
+            "type": "cortex-debug",
+            "request": "launch",
+            "servertype": "openocd",
+            "cwd": "${workspaceFolder}",
+            "executable": "build/TestUSB.elf",
+            "svdFile": ".vscode/STM32F21x.svd",
+            "configFiles": [
+                "C:/Users/User/AppData/Roaming/GNUMCUEclipse/OpenOCD/scripts/interface/stlink-v2.cfg",
+                ".vscode/stm32f2x.cfg"
+            ],
+            "preLaunchTask": "Build project"
+        },
+        {
+            "name": "Debug current Python file",
+            "type": "python",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        }
+    ]
+}

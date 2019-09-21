@@ -1,0 +1,160 @@
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccFX3DPF.s 			page 1
+
+
+   1              		.cpu cortex-m3
+   2              		.eabi_attribute 20, 1
+   3              		.eabi_attribute 21, 1
+   4              		.eabi_attribute 23, 3
+   5              		.eabi_attribute 24, 1
+   6              		.eabi_attribute 25, 1
+   7              		.eabi_attribute 26, 1
+   8              		.eabi_attribute 30, 1
+   9              		.eabi_attribute 34, 1
+  10              		.eabi_attribute 18, 4
+  11              		.file	"usbCore.c"
+  12              		.text
+  13              	.Ltext0:
+  14              		.cfi_sections	.debug_frame
+  15              		.section	.text.InitMAPFunc,"ax",%progbits
+  16              		.align	1
+  17              		.global	InitMAPFunc
+  18              		.arch armv7-m
+  19              		.syntax unified
+  20              		.thumb
+  21              		.thumb_func
+  22              		.fpu softvfp
+  24              	InitMAPFunc:
+  25              	.LFB80:
+  26              		.file 1 "Src/usbCore.c"
+   1:Src/usbCore.c **** #include "main.h"
+   2:Src/usbCore.c **** #include "cmsis_os.h"
+   3:Src/usbCore.c **** #include "can.h"
+   4:Src/usbCore.c **** #include "dma.h"
+   5:Src/usbCore.c **** #include "spi.h"
+   6:Src/usbCore.c **** #include "usart.h"
+   7:Src/usbCore.c **** #include "usb_device.h"
+   8:Src/usbCore.c **** #include "gpio.h"
+   9:Src/usbCore.c **** #include "fsmc.h"
+  10:Src/usbCore.c **** #include "usbd_cdc_if.h"
+  11:Src/usbCore.c **** 
+  12:Src/usbCore.c **** uint8_t InitMAPFunc(void)
+  13:Src/usbCore.c **** {
+  27              		.loc 1 13 1 view -0
+  28              		.cfi_startproc
+  29              		@ args = 0, pretend = 0, frame = 0
+  30              		@ frame_needed = 0, uses_anonymous_args = 0
+  31              		@ link register save eliminated.
+  14:Src/usbCore.c ****     uint8_t status;
+  32              		.loc 1 14 5 view .LVU1
+  15:Src/usbCore.c ****     return status;
+  33              		.loc 1 15 5 view .LVU2
+  16:Src/usbCore.c **** }
+  34              		.loc 1 16 1 is_stmt 0 view .LVU3
+  35 0000 0020     		movs	r0, #0
+  36 0002 7047     		bx	lr
+  37              		.cfi_endproc
+  38              	.LFE80:
+  40              		.section	.text.MyInfo,"ax",%progbits
+  41              		.align	1
+  42              		.global	MyInfo
+  43              		.syntax unified
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccFX3DPF.s 			page 2
+
+
+  44              		.thumb
+  45              		.thumb_func
+  46              		.fpu softvfp
+  48              	MyInfo:
+  49              	.LFB81:
+  17:Src/usbCore.c **** 
+  18:Src/usbCore.c **** uint8_t MyInfo(void)
+  19:Src/usbCore.c **** {
+  50              		.loc 1 19 1 is_stmt 1 view -0
+  51              		.cfi_startproc
+  52              		@ args = 0, pretend = 0, frame = 128
+  53              		@ frame_needed = 0, uses_anonymous_args = 0
+  54 0000 10B5     		push	{r4, lr}
+  55              	.LCFI0:
+  56              		.cfi_def_cfa_offset 8
+  57              		.cfi_offset 4, -8
+  58              		.cfi_offset 14, -4
+  59 0002 A0B0     		sub	sp, sp, #128
+  60              	.LCFI1:
+  61              		.cfi_def_cfa_offset 136
+  20:Src/usbCore.c ****     uint8_t array[128];
+  62              		.loc 1 20 5 view .LVU5
+  21:Src/usbCore.c **** 
+  22:Src/usbCore.c ****     array[0] = 0x01;
+  63              		.loc 1 22 5 view .LVU6
+  64              		.loc 1 22 14 is_stmt 0 view .LVU7
+  65 0004 0124     		movs	r4, #1
+  66 0006 8DF80040 		strb	r4, [sp]
+  23:Src/usbCore.c ****     array[1] = 0x00;
+  67              		.loc 1 23 5 is_stmt 1 view .LVU8
+  68              		.loc 1 23 14 is_stmt 0 view .LVU9
+  69 000a 0023     		movs	r3, #0
+  70 000c 8DF80130 		strb	r3, [sp, #1]
+  24:Src/usbCore.c ****     CDC_Transmit_HS(array,128);
+  71              		.loc 1 24 5 is_stmt 1 view .LVU10
+  72 0010 8021     		movs	r1, #128
+  73 0012 6846     		mov	r0, sp
+  74 0014 FFF7FEFF 		bl	CDC_Transmit_HS
+  75              	.LVL0:
+  25:Src/usbCore.c **** 
+  26:Src/usbCore.c ****     return pdTRUE;
+  76              		.loc 1 26 5 view .LVU11
+  27:Src/usbCore.c **** }...
+  77              		.loc 1 27 1 is_stmt 0 view .LVU12
+  78 0018 2046     		mov	r0, r4
+  79 001a 20B0     		add	sp, sp, #128
+  80              	.LCFI2:
+  81              		.cfi_def_cfa_offset 8
+  82              		@ sp needed
+  83 001c 10BD     		pop	{r4, pc}
+  84              		.cfi_endproc
+  85              	.LFE81:
+  87              		.text
+  88              	.Letext0:
+  89              		.file 2 "c:\\users\\user\\appdata\\roaming\\gnumcueclipse\\armembeddedgcc\\arm-none-eabi\\include\
+  90              		.file 3 "c:\\users\\user\\appdata\\roaming\\gnumcueclipse\\armembeddedgcc\\arm-none-eabi\\include\
+  91              		.file 4 "Drivers/CMSIS/Include/core_cm3.h"
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccFX3DPF.s 			page 3
+
+
+  92              		.file 5 "Drivers/CMSIS/Device/ST/STM32F2xx/Include/system_stm32f2xx.h"
+  93              		.file 6 "Drivers/CMSIS/Device/ST/STM32F2xx/Include/stm32f215xx.h"
+  94              		.file 7 "Drivers/CMSIS/Device/ST/STM32F2xx/Include/stm32f2xx.h"
+  95              		.file 8 "Drivers/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_def.h"
+  96              		.file 9 "Drivers/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_dma.h"
+  97              		.file 10 "Drivers/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_can.h"
+  98              		.file 11 "Drivers/STM32F2xx_HAL_Driver/Inc/stm32f2xx_ll_fsmc.h"
+  99              		.file 12 "Drivers/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_nand.h"
+ 100              		.file 13 "Drivers/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_spi.h"
+ 101              		.file 14 "Drivers/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_uart.h"
+ 102              		.file 15 "Drivers/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal.h"
+ 103              		.file 16 "Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h"
+ 104              		.file 17 "Inc/can.h"
+ 105              		.file 18 "Inc/dma.h"
+ 106              		.file 19 "Inc/spi.h"
+ 107              		.file 20 "Inc/usart.h"
+ 108              		.file 21 "c:\\users\\user\\appdata\\roaming\\gnumcueclipse\\armembeddedgcc\\arm-none-eabi\\include
+ 109              		.file 22 "c:\\users\\user\\appdata\\roaming\\gnumcueclipse\\armembeddedgcc\\arm-none-eabi\\include
+ 110              		.file 23 "c:\\users\\user\\appdata\\roaming\\gnumcueclipse\\armembeddedgcc\\lib\\gcc\\arm-none-eab
+ 111              		.file 24 "c:\\users\\user\\appdata\\roaming\\gnumcueclipse\\armembeddedgcc\\arm-none-eabi\\include
+ 112              		.file 25 "c:\\users\\user\\appdata\\roaming\\gnumcueclipse\\armembeddedgcc\\arm-none-eabi\\include
+ 113              		.file 26 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h"
+ 114              		.file 27 "Inc/fsmc.h"
+ 115              		.file 28 "Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h"
+ 116              		.file 29 "Inc/usbd_cdc_if.h"
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccFX3DPF.s 			page 4
+
+
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 usbCore.c
+C:\Users\User\AppData\Local\Temp\ccFX3DPF.s:16     .text.InitMAPFunc:0000000000000000 $t
+C:\Users\User\AppData\Local\Temp\ccFX3DPF.s:24     .text.InitMAPFunc:0000000000000000 InitMAPFunc
+C:\Users\User\AppData\Local\Temp\ccFX3DPF.s:41     .text.MyInfo:0000000000000000 $t
+C:\Users\User\AppData\Local\Temp\ccFX3DPF.s:48     .text.MyInfo:0000000000000000 MyInfo
+
+UNDEFINED SYMBOLS
+CDC_Transmit_HS

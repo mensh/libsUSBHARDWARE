@@ -1,0 +1,747 @@
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccGs9rie.s 			page 1
+
+
+   1              		.cpu cortex-m3
+   2              		.eabi_attribute 20, 1
+   3              		.eabi_attribute 21, 1
+   4              		.eabi_attribute 23, 3
+   5              		.eabi_attribute 24, 1
+   6              		.eabi_attribute 25, 1
+   7              		.eabi_attribute 26, 1
+   8              		.eabi_attribute 30, 1
+   9              		.eabi_attribute 34, 1
+  10              		.eabi_attribute 18, 4
+  11              		.file	"fsmc.c"
+  12              		.text
+  13              	.Ltext0:
+  14              		.cfi_sections	.debug_frame
+  15              		.section	.text.HAL_FSMC_MspInit,"ax",%progbits
+  16              		.align	1
+  17              		.arch armv7-m
+  18              		.syntax unified
+  19              		.thumb
+  20              		.thumb_func
+  21              		.fpu softvfp
+  23              	HAL_FSMC_MspInit:
+  24              	.LFB73:
+  25              		.file 1 "Src/fsmc.c"
+   1:Src/fsmc.c    **** /**
+   2:Src/fsmc.c    ****   ******************************************************************************
+   3:Src/fsmc.c    ****   * File Name          : FSMC.c
+   4:Src/fsmc.c    ****   * Description        : This file provides code for the configuration
+   5:Src/fsmc.c    ****   *                      of the FSMC peripheral.
+   6:Src/fsmc.c    ****   ******************************************************************************
+   7:Src/fsmc.c    ****   * @attention
+   8:Src/fsmc.c    ****   *
+   9:Src/fsmc.c    ****   * <h2><center>&copy; Copyright (c) 2019 STMicroelectronics.
+  10:Src/fsmc.c    ****   * All rights reserved.</center></h2>
+  11:Src/fsmc.c    ****   *
+  12:Src/fsmc.c    ****   * This software component is licensed by ST under Ultimate Liberty license
+  13:Src/fsmc.c    ****   * SLA0044, the "License"; You may not use this file except in compliance with
+  14:Src/fsmc.c    ****   * the License. You may obtain a copy of the License at:
+  15:Src/fsmc.c    ****   *                             www.st.com/SLA0044
+  16:Src/fsmc.c    ****   *
+  17:Src/fsmc.c    ****   ******************************************************************************
+  18:Src/fsmc.c    ****   */
+  19:Src/fsmc.c    **** 
+  20:Src/fsmc.c    **** /* Includes ------------------------------------------------------------------*/
+  21:Src/fsmc.c    **** #include "fsmc.h"
+  22:Src/fsmc.c    **** 
+  23:Src/fsmc.c    **** /* USER CODE BEGIN 0 */
+  24:Src/fsmc.c    **** 
+  25:Src/fsmc.c    **** /* USER CODE END 0 */
+  26:Src/fsmc.c    **** 
+  27:Src/fsmc.c    **** NAND_HandleTypeDef hnand1;
+  28:Src/fsmc.c    **** 
+  29:Src/fsmc.c    **** /* FSMC initialization function */
+  30:Src/fsmc.c    **** void MX_FSMC_Init(void)
+  31:Src/fsmc.c    **** {
+  32:Src/fsmc.c    ****   FSMC_NAND_PCC_TimingTypeDef ComSpaceTiming = {0};
+  33:Src/fsmc.c    ****   FSMC_NAND_PCC_TimingTypeDef AttSpaceTiming = {0};
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccGs9rie.s 			page 2
+
+
+  34:Src/fsmc.c    **** 
+  35:Src/fsmc.c    ****   /** Perform the NAND1 memory initialization sequence
+  36:Src/fsmc.c    ****   */
+  37:Src/fsmc.c    ****   hnand1.Instance = FSMC_NAND_DEVICE;
+  38:Src/fsmc.c    ****   /* hnand1.Init */
+  39:Src/fsmc.c    ****   hnand1.Init.NandBank = FSMC_NAND_BANK2;
+  40:Src/fsmc.c    ****   hnand1.Init.Waitfeature = FSMC_NAND_PCC_WAIT_FEATURE_ENABLE;
+  41:Src/fsmc.c    ****   hnand1.Init.MemoryDataWidth = FSMC_NAND_PCC_MEM_BUS_WIDTH_8;
+  42:Src/fsmc.c    ****   hnand1.Init.EccComputation = FSMC_NAND_ECC_DISABLE;
+  43:Src/fsmc.c    ****   hnand1.Init.ECCPageSize = FSMC_NAND_ECC_PAGE_SIZE_256BYTE;
+  44:Src/fsmc.c    ****   hnand1.Init.TCLRSetupTime = 0;
+  45:Src/fsmc.c    ****   hnand1.Init.TARSetupTime = 0;
+  46:Src/fsmc.c    ****   /* hnand1.Config */
+  47:Src/fsmc.c    ****   hnand1.Config.PageSize = 0;
+  48:Src/fsmc.c    ****   hnand1.Config.SpareAreaSize = 0;
+  49:Src/fsmc.c    ****   hnand1.Config.BlockSize = 0;
+  50:Src/fsmc.c    ****   hnand1.Config.BlockNbr = 0;
+  51:Src/fsmc.c    ****   hnand1.Config.PlaneNbr = 0;
+  52:Src/fsmc.c    ****   hnand1.Config.PlaneSize = 0;
+  53:Src/fsmc.c    ****   hnand1.Config.ExtraCommandEnable = DISABLE;
+  54:Src/fsmc.c    ****   /* ComSpaceTiming */
+  55:Src/fsmc.c    ****   ComSpaceTiming.SetupTime = 252;
+  56:Src/fsmc.c    ****   ComSpaceTiming.WaitSetupTime = 252;
+  57:Src/fsmc.c    ****   ComSpaceTiming.HoldSetupTime = 252;
+  58:Src/fsmc.c    ****   ComSpaceTiming.HiZSetupTime = 252;
+  59:Src/fsmc.c    ****   /* AttSpaceTiming */
+  60:Src/fsmc.c    ****   AttSpaceTiming.SetupTime = 252;
+  61:Src/fsmc.c    ****   AttSpaceTiming.WaitSetupTime = 252;
+  62:Src/fsmc.c    ****   AttSpaceTiming.HoldSetupTime = 252;
+  63:Src/fsmc.c    ****   AttSpaceTiming.HiZSetupTime = 252;
+  64:Src/fsmc.c    **** 
+  65:Src/fsmc.c    ****   if (HAL_NAND_Init(&hnand1, &ComSpaceTiming, &AttSpaceTiming) != HAL_OK)
+  66:Src/fsmc.c    ****   {
+  67:Src/fsmc.c    ****     Error_Handler( );
+  68:Src/fsmc.c    ****   }
+  69:Src/fsmc.c    **** 
+  70:Src/fsmc.c    **** }
+  71:Src/fsmc.c    **** 
+  72:Src/fsmc.c    **** static uint32_t FSMC_Initialized = 0;
+  73:Src/fsmc.c    **** 
+  74:Src/fsmc.c    **** static void HAL_FSMC_MspInit(void){
+  26              		.loc 1 74 35 view -0
+  27              		.cfi_startproc
+  28              		@ args = 0, pretend = 0, frame = 24
+  29              		@ frame_needed = 0, uses_anonymous_args = 0
+  30 0000 F0B5     		push	{r4, r5, r6, r7, lr}
+  31              	.LCFI0:
+  32              		.cfi_def_cfa_offset 20
+  33              		.cfi_offset 4, -20
+  34              		.cfi_offset 5, -16
+  35              		.cfi_offset 6, -12
+  36              		.cfi_offset 7, -8
+  37              		.cfi_offset 14, -4
+  38 0002 87B0     		sub	sp, sp, #28
+  39              	.LCFI1:
+  40              		.cfi_def_cfa_offset 48
+  75:Src/fsmc.c    ****   /* USER CODE BEGIN FSMC_MspInit 0 */
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccGs9rie.s 			page 3
+
+
+  76:Src/fsmc.c    **** 
+  77:Src/fsmc.c    ****   /* USER CODE END FSMC_MspInit 0 */
+  78:Src/fsmc.c    ****   GPIO_InitTypeDef GPIO_InitStruct = {0};
+  41              		.loc 1 78 3 view .LVU1
+  42              		.loc 1 78 20 is_stmt 0 view .LVU2
+  43 0004 0023     		movs	r3, #0
+  44 0006 0193     		str	r3, [sp, #4]
+  45 0008 0293     		str	r3, [sp, #8]
+  46 000a 0393     		str	r3, [sp, #12]
+  47 000c 0493     		str	r3, [sp, #16]
+  48 000e 0593     		str	r3, [sp, #20]
+  79:Src/fsmc.c    ****   if (FSMC_Initialized) {
+  49              		.loc 1 79 3 is_stmt 1 view .LVU3
+  50              		.loc 1 79 7 is_stmt 0 view .LVU4
+  51 0010 164B     		ldr	r3, .L6
+  52 0012 1B68     		ldr	r3, [r3]
+  53              		.loc 1 79 6 view .LVU5
+  54 0014 0BB1     		cbz	r3, .L5
+  55              	.L1:
+  80:Src/fsmc.c    ****     return;
+  81:Src/fsmc.c    ****   }
+  82:Src/fsmc.c    ****   FSMC_Initialized = 1;
+  83:Src/fsmc.c    ****   /* Peripheral clock enable */
+  84:Src/fsmc.c    ****   __HAL_RCC_FSMC_CLK_ENABLE();
+  85:Src/fsmc.c    ****   
+  86:Src/fsmc.c    ****   /** FSMC GPIO Configuration  
+  87:Src/fsmc.c    ****   PE7   ------> FSMC_D4
+  88:Src/fsmc.c    ****   PE8   ------> FSMC_D5
+  89:Src/fsmc.c    ****   PE9   ------> FSMC_D6
+  90:Src/fsmc.c    ****   PE10   ------> FSMC_D7
+  91:Src/fsmc.c    ****   PD11   ------> FSMC_CLE
+  92:Src/fsmc.c    ****   PD12   ------> FSMC_ALE
+  93:Src/fsmc.c    ****   PD14   ------> FSMC_D0
+  94:Src/fsmc.c    ****   PD15   ------> FSMC_D1
+  95:Src/fsmc.c    ****   PD0   ------> FSMC_D2
+  96:Src/fsmc.c    ****   PD1   ------> FSMC_D3
+  97:Src/fsmc.c    ****   PD4   ------> FSMC_NOE
+  98:Src/fsmc.c    ****   PD5   ------> FSMC_NWE
+  99:Src/fsmc.c    ****   PD6   ------> FSMC_NWAIT
+ 100:Src/fsmc.c    ****   PD7   ------> FSMC_NCE2
+ 101:Src/fsmc.c    ****   */
+ 102:Src/fsmc.c    ****   /* GPIO_InitStruct */
+ 103:Src/fsmc.c    ****   GPIO_InitStruct.Pin = GPIO_PIN_7|GPIO_PIN_8|GPIO_PIN_9|GPIO_PIN_10;
+ 104:Src/fsmc.c    ****   GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
+ 105:Src/fsmc.c    ****   GPIO_InitStruct.Pull = GPIO_NOPULL;
+ 106:Src/fsmc.c    ****   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
+ 107:Src/fsmc.c    ****   GPIO_InitStruct.Alternate = GPIO_AF12_FSMC;
+ 108:Src/fsmc.c    **** 
+ 109:Src/fsmc.c    ****   HAL_GPIO_Init(GPIOE, &GPIO_InitStruct);
+ 110:Src/fsmc.c    **** 
+ 111:Src/fsmc.c    ****   /* GPIO_InitStruct */
+ 112:Src/fsmc.c    ****   GPIO_InitStruct.Pin = GPIO_PIN_11|GPIO_PIN_12|GPIO_PIN_14|GPIO_PIN_15 
+ 113:Src/fsmc.c    ****                           |GPIO_PIN_0|GPIO_PIN_1|GPIO_PIN_4|GPIO_PIN_5 
+ 114:Src/fsmc.c    ****                           |GPIO_PIN_6|GPIO_PIN_7;
+ 115:Src/fsmc.c    ****   GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
+ 116:Src/fsmc.c    ****   GPIO_InitStruct.Pull = GPIO_NOPULL;
+ 117:Src/fsmc.c    ****   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccGs9rie.s 			page 4
+
+
+ 118:Src/fsmc.c    ****   GPIO_InitStruct.Alternate = GPIO_AF12_FSMC;
+ 119:Src/fsmc.c    **** 
+ 120:Src/fsmc.c    ****   HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
+ 121:Src/fsmc.c    **** 
+ 122:Src/fsmc.c    ****   /* USER CODE BEGIN FSMC_MspInit 1 */
+ 123:Src/fsmc.c    **** 
+ 124:Src/fsmc.c    ****   /* USER CODE END FSMC_MspInit 1 */
+ 125:Src/fsmc.c    **** }
+  56              		.loc 1 125 1 view .LVU6
+  57 0016 07B0     		add	sp, sp, #28
+  58              	.LCFI2:
+  59              		.cfi_remember_state
+  60              		.cfi_def_cfa_offset 20
+  61              		@ sp needed
+  62 0018 F0BD     		pop	{r4, r5, r6, r7, pc}
+  63              	.L5:
+  64              	.LCFI3:
+  65              		.cfi_restore_state
+  82:Src/fsmc.c    ****   /* Peripheral clock enable */
+  66              		.loc 1 82 3 is_stmt 1 view .LVU7
+  82:Src/fsmc.c    ****   /* Peripheral clock enable */
+  67              		.loc 1 82 20 is_stmt 0 view .LVU8
+  68 001a 144B     		ldr	r3, .L6
+  69 001c 0122     		movs	r2, #1
+  70 001e 1A60     		str	r2, [r3]
+  84:Src/fsmc.c    ****   
+  71              		.loc 1 84 3 is_stmt 1 view .LVU9
+  72              	.LBB2:
+  84:Src/fsmc.c    ****   
+  73              		.loc 1 84 3 view .LVU10
+  74 0020 0026     		movs	r6, #0
+  75 0022 0096     		str	r6, [sp]
+  84:Src/fsmc.c    ****   
+  76              		.loc 1 84 3 view .LVU11
+  77 0024 124B     		ldr	r3, .L6+4
+  78 0026 9A6B     		ldr	r2, [r3, #56]
+  79 0028 42F00102 		orr	r2, r2, #1
+  80 002c 9A63     		str	r2, [r3, #56]
+  84:Src/fsmc.c    ****   
+  81              		.loc 1 84 3 view .LVU12
+  82 002e 9B6B     		ldr	r3, [r3, #56]
+  83 0030 03F00103 		and	r3, r3, #1
+  84 0034 0093     		str	r3, [sp]
+  84:Src/fsmc.c    ****   
+  85              		.loc 1 84 3 view .LVU13
+  86 0036 009B     		ldr	r3, [sp]
+  87              	.LBE2:
+ 103:Src/fsmc.c    ****   GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
+  88              		.loc 1 103 3 view .LVU14
+ 103:Src/fsmc.c    ****   GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
+  89              		.loc 1 103 23 is_stmt 0 view .LVU15
+  90 0038 4FF4F063 		mov	r3, #1920
+  91 003c 0193     		str	r3, [sp, #4]
+ 104:Src/fsmc.c    ****   GPIO_InitStruct.Pull = GPIO_NOPULL;
+  92              		.loc 1 104 3 is_stmt 1 view .LVU16
+ 104:Src/fsmc.c    ****   GPIO_InitStruct.Pull = GPIO_NOPULL;
+  93              		.loc 1 104 24 is_stmt 0 view .LVU17
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccGs9rie.s 			page 5
+
+
+  94 003e 0227     		movs	r7, #2
+  95 0040 0297     		str	r7, [sp, #8]
+ 105:Src/fsmc.c    ****   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
+  96              		.loc 1 105 3 is_stmt 1 view .LVU18
+ 106:Src/fsmc.c    ****   GPIO_InitStruct.Alternate = GPIO_AF12_FSMC;
+  97              		.loc 1 106 3 view .LVU19
+ 106:Src/fsmc.c    ****   GPIO_InitStruct.Alternate = GPIO_AF12_FSMC;
+  98              		.loc 1 106 25 is_stmt 0 view .LVU20
+  99 0042 0325     		movs	r5, #3
+ 100 0044 0495     		str	r5, [sp, #16]
+ 107:Src/fsmc.c    **** 
+ 101              		.loc 1 107 3 is_stmt 1 view .LVU21
+ 107:Src/fsmc.c    **** 
+ 102              		.loc 1 107 29 is_stmt 0 view .LVU22
+ 103 0046 0C24     		movs	r4, #12
+ 104 0048 0594     		str	r4, [sp, #20]
+ 109:Src/fsmc.c    **** 
+ 105              		.loc 1 109 3 is_stmt 1 view .LVU23
+ 106 004a 01A9     		add	r1, sp, #4
+ 107 004c 0948     		ldr	r0, .L6+8
+ 108 004e FFF7FEFF 		bl	HAL_GPIO_Init
+ 109              	.LVL0:
+ 112:Src/fsmc.c    ****                           |GPIO_PIN_0|GPIO_PIN_1|GPIO_PIN_4|GPIO_PIN_5 
+ 110              		.loc 1 112 3 view .LVU24
+ 112:Src/fsmc.c    ****                           |GPIO_PIN_0|GPIO_PIN_1|GPIO_PIN_4|GPIO_PIN_5 
+ 111              		.loc 1 112 23 is_stmt 0 view .LVU25
+ 112 0052 4DF6F303 		movw	r3, #55539
+ 113 0056 0193     		str	r3, [sp, #4]
+ 115:Src/fsmc.c    ****   GPIO_InitStruct.Pull = GPIO_NOPULL;
+ 114              		.loc 1 115 3 is_stmt 1 view .LVU26
+ 115:Src/fsmc.c    ****   GPIO_InitStruct.Pull = GPIO_NOPULL;
+ 115              		.loc 1 115 24 is_stmt 0 view .LVU27
+ 116 0058 0297     		str	r7, [sp, #8]
+ 116:Src/fsmc.c    ****   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
+ 117              		.loc 1 116 3 is_stmt 1 view .LVU28
+ 116:Src/fsmc.c    ****   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
+ 118              		.loc 1 116 24 is_stmt 0 view .LVU29
+ 119 005a 0396     		str	r6, [sp, #12]
+ 117:Src/fsmc.c    ****   GPIO_InitStruct.Alternate = GPIO_AF12_FSMC;
+ 120              		.loc 1 117 3 is_stmt 1 view .LVU30
+ 117:Src/fsmc.c    ****   GPIO_InitStruct.Alternate = GPIO_AF12_FSMC;
+ 121              		.loc 1 117 25 is_stmt 0 view .LVU31
+ 122 005c 0495     		str	r5, [sp, #16]
+ 118:Src/fsmc.c    **** 
+ 123              		.loc 1 118 3 is_stmt 1 view .LVU32
+ 118:Src/fsmc.c    **** 
+ 124              		.loc 1 118 29 is_stmt 0 view .LVU33
+ 125 005e 0594     		str	r4, [sp, #20]
+ 120:Src/fsmc.c    **** 
+ 126              		.loc 1 120 3 is_stmt 1 view .LVU34
+ 127 0060 01A9     		add	r1, sp, #4
+ 128 0062 0548     		ldr	r0, .L6+12
+ 129 0064 FFF7FEFF 		bl	HAL_GPIO_Init
+ 130              	.LVL1:
+ 131 0068 D5E7     		b	.L1
+ 132              	.L7:
+ 133 006a 00BF     		.align	2
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccGs9rie.s 			page 6
+
+
+ 134              	.L6:
+ 135 006c 00000000 		.word	.LANCHOR0
+ 136 0070 00380240 		.word	1073887232
+ 137 0074 00100240 		.word	1073876992
+ 138 0078 000C0240 		.word	1073875968
+ 139              		.cfi_endproc
+ 140              	.LFE73:
+ 142              		.section	.text.HAL_FSMC_MspDeInit,"ax",%progbits
+ 143              		.align	1
+ 144              		.syntax unified
+ 145              		.thumb
+ 146              		.thumb_func
+ 147              		.fpu softvfp
+ 149              	HAL_FSMC_MspDeInit:
+ 150              	.LFB75:
+ 126:Src/fsmc.c    **** 
+ 127:Src/fsmc.c    **** void HAL_NAND_MspInit(NAND_HandleTypeDef* nandHandle){
+ 128:Src/fsmc.c    ****   /* USER CODE BEGIN NAND_MspInit 0 */
+ 129:Src/fsmc.c    **** 
+ 130:Src/fsmc.c    ****   /* USER CODE END NAND_MspInit 0 */
+ 131:Src/fsmc.c    ****   HAL_FSMC_MspInit();
+ 132:Src/fsmc.c    ****   /* USER CODE BEGIN NAND_MspInit 1 */
+ 133:Src/fsmc.c    **** 
+ 134:Src/fsmc.c    ****   /* USER CODE END NAND_MspInit 1 */
+ 135:Src/fsmc.c    **** }
+ 136:Src/fsmc.c    **** 
+ 137:Src/fsmc.c    **** static uint32_t FSMC_DeInitialized = 0;
+ 138:Src/fsmc.c    **** 
+ 139:Src/fsmc.c    **** static void HAL_FSMC_MspDeInit(void){
+ 151              		.loc 1 139 37 view -0
+ 152              		.cfi_startproc
+ 153              		@ args = 0, pretend = 0, frame = 0
+ 154              		@ frame_needed = 0, uses_anonymous_args = 0
+ 155 0000 08B5     		push	{r3, lr}
+ 156              	.LCFI4:
+ 157              		.cfi_def_cfa_offset 8
+ 158              		.cfi_offset 3, -8
+ 159              		.cfi_offset 14, -4
+ 140:Src/fsmc.c    ****   /* USER CODE BEGIN FSMC_MspDeInit 0 */
+ 141:Src/fsmc.c    **** 
+ 142:Src/fsmc.c    ****   /* USER CODE END FSMC_MspDeInit 0 */
+ 143:Src/fsmc.c    ****   if (FSMC_DeInitialized) {
+ 160              		.loc 1 143 3 view .LVU36
+ 161              		.loc 1 143 7 is_stmt 0 view .LVU37
+ 162 0002 0B4B     		ldr	r3, .L12
+ 163 0004 1B68     		ldr	r3, [r3]
+ 164              		.loc 1 143 6 view .LVU38
+ 165 0006 03B1     		cbz	r3, .L11
+ 166              	.L8:
+ 144:Src/fsmc.c    ****     return;
+ 145:Src/fsmc.c    ****   }
+ 146:Src/fsmc.c    ****   FSMC_DeInitialized = 1;
+ 147:Src/fsmc.c    ****   /* Peripheral clock enable */
+ 148:Src/fsmc.c    ****   __HAL_RCC_FSMC_CLK_DISABLE();
+ 149:Src/fsmc.c    ****   
+ 150:Src/fsmc.c    ****   /** FSMC GPIO Configuration  
+ 151:Src/fsmc.c    ****   PE7   ------> FSMC_D4
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccGs9rie.s 			page 7
+
+
+ 152:Src/fsmc.c    ****   PE8   ------> FSMC_D5
+ 153:Src/fsmc.c    ****   PE9   ------> FSMC_D6
+ 154:Src/fsmc.c    ****   PE10   ------> FSMC_D7
+ 155:Src/fsmc.c    ****   PD11   ------> FSMC_CLE
+ 156:Src/fsmc.c    ****   PD12   ------> FSMC_ALE
+ 157:Src/fsmc.c    ****   PD14   ------> FSMC_D0
+ 158:Src/fsmc.c    ****   PD15   ------> FSMC_D1
+ 159:Src/fsmc.c    ****   PD0   ------> FSMC_D2
+ 160:Src/fsmc.c    ****   PD1   ------> FSMC_D3
+ 161:Src/fsmc.c    ****   PD4   ------> FSMC_NOE
+ 162:Src/fsmc.c    ****   PD5   ------> FSMC_NWE
+ 163:Src/fsmc.c    ****   PD6   ------> FSMC_NWAIT
+ 164:Src/fsmc.c    ****   PD7   ------> FSMC_NCE2
+ 165:Src/fsmc.c    ****   */
+ 166:Src/fsmc.c    **** 
+ 167:Src/fsmc.c    ****   HAL_GPIO_DeInit(GPIOE, GPIO_PIN_7|GPIO_PIN_8|GPIO_PIN_9|GPIO_PIN_10);
+ 168:Src/fsmc.c    **** 
+ 169:Src/fsmc.c    ****   HAL_GPIO_DeInit(GPIOD, GPIO_PIN_11|GPIO_PIN_12|GPIO_PIN_14|GPIO_PIN_15 
+ 170:Src/fsmc.c    ****                           |GPIO_PIN_0|GPIO_PIN_1|GPIO_PIN_4|GPIO_PIN_5 
+ 171:Src/fsmc.c    ****                           |GPIO_PIN_6|GPIO_PIN_7);
+ 172:Src/fsmc.c    **** 
+ 173:Src/fsmc.c    ****   /* USER CODE BEGIN FSMC_MspDeInit 1 */
+ 174:Src/fsmc.c    **** 
+ 175:Src/fsmc.c    ****   /* USER CODE END FSMC_MspDeInit 1 */
+ 176:Src/fsmc.c    **** }
+ 167              		.loc 1 176 1 view .LVU39
+ 168 0008 08BD     		pop	{r3, pc}
+ 169              	.L11:
+ 146:Src/fsmc.c    ****   /* Peripheral clock enable */
+ 170              		.loc 1 146 3 is_stmt 1 view .LVU40
+ 146:Src/fsmc.c    ****   /* Peripheral clock enable */
+ 171              		.loc 1 146 22 is_stmt 0 view .LVU41
+ 172 000a 094B     		ldr	r3, .L12
+ 173 000c 0122     		movs	r2, #1
+ 174 000e 1A60     		str	r2, [r3]
+ 148:Src/fsmc.c    ****   
+ 175              		.loc 1 148 3 is_stmt 1 view .LVU42
+ 176 0010 084A     		ldr	r2, .L12+4
+ 177 0012 936B     		ldr	r3, [r2, #56]
+ 178 0014 23F00103 		bic	r3, r3, #1
+ 179 0018 9363     		str	r3, [r2, #56]
+ 167:Src/fsmc.c    **** 
+ 180              		.loc 1 167 3 view .LVU43
+ 181 001a 4FF4F061 		mov	r1, #1920
+ 182 001e 0648     		ldr	r0, .L12+8
+ 183 0020 FFF7FEFF 		bl	HAL_GPIO_DeInit
+ 184              	.LVL2:
+ 169:Src/fsmc.c    ****                           |GPIO_PIN_0|GPIO_PIN_1|GPIO_PIN_4|GPIO_PIN_5 
+ 185              		.loc 1 169 3 view .LVU44
+ 186 0024 4DF6F301 		movw	r1, #55539
+ 187 0028 0448     		ldr	r0, .L12+12
+ 188 002a FFF7FEFF 		bl	HAL_GPIO_DeInit
+ 189              	.LVL3:
+ 190 002e EBE7     		b	.L8
+ 191              	.L13:
+ 192              		.align	2
+ 193              	.L12:
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccGs9rie.s 			page 8
+
+
+ 194 0030 00000000 		.word	.LANCHOR1
+ 195 0034 00380240 		.word	1073887232
+ 196 0038 00100240 		.word	1073876992
+ 197 003c 000C0240 		.word	1073875968
+ 198              		.cfi_endproc
+ 199              	.LFE75:
+ 201              		.section	.text.MX_FSMC_Init,"ax",%progbits
+ 202              		.align	1
+ 203              		.global	MX_FSMC_Init
+ 204              		.syntax unified
+ 205              		.thumb
+ 206              		.thumb_func
+ 207              		.fpu softvfp
+ 209              	MX_FSMC_Init:
+ 210              	.LFB72:
+  31:Src/fsmc.c    ****   FSMC_NAND_PCC_TimingTypeDef ComSpaceTiming = {0};
+ 211              		.loc 1 31 1 view -0
+ 212              		.cfi_startproc
+ 213              		@ args = 0, pretend = 0, frame = 32
+ 214              		@ frame_needed = 0, uses_anonymous_args = 0
+ 215 0000 00B5     		push	{lr}
+ 216              	.LCFI5:
+ 217              		.cfi_def_cfa_offset 4
+ 218              		.cfi_offset 14, -4
+ 219 0002 89B0     		sub	sp, sp, #36
+ 220              	.LCFI6:
+ 221              		.cfi_def_cfa_offset 40
+  32:Src/fsmc.c    ****   FSMC_NAND_PCC_TimingTypeDef AttSpaceTiming = {0};
+ 222              		.loc 1 32 3 view .LVU46
+  33:Src/fsmc.c    **** 
+ 223              		.loc 1 33 3 view .LVU47
+  37:Src/fsmc.c    ****   /* hnand1.Init */
+ 224              		.loc 1 37 3 view .LVU48
+  37:Src/fsmc.c    ****   /* hnand1.Init */
+ 225              		.loc 1 37 19 is_stmt 0 view .LVU49
+ 226 0004 1448     		ldr	r0, .L18
+ 227 0006 154B     		ldr	r3, .L18+4
+ 228 0008 0360     		str	r3, [r0]
+  39:Src/fsmc.c    ****   hnand1.Init.Waitfeature = FSMC_NAND_PCC_WAIT_FEATURE_ENABLE;
+ 229              		.loc 1 39 3 is_stmt 1 view .LVU50
+  39:Src/fsmc.c    ****   hnand1.Init.Waitfeature = FSMC_NAND_PCC_WAIT_FEATURE_ENABLE;
+ 230              		.loc 1 39 24 is_stmt 0 view .LVU51
+ 231 000a 1023     		movs	r3, #16
+ 232 000c 4360     		str	r3, [r0, #4]
+  40:Src/fsmc.c    ****   hnand1.Init.MemoryDataWidth = FSMC_NAND_PCC_MEM_BUS_WIDTH_8;
+ 233              		.loc 1 40 3 is_stmt 1 view .LVU52
+  40:Src/fsmc.c    ****   hnand1.Init.MemoryDataWidth = FSMC_NAND_PCC_MEM_BUS_WIDTH_8;
+ 234              		.loc 1 40 27 is_stmt 0 view .LVU53
+ 235 000e 0223     		movs	r3, #2
+ 236 0010 8360     		str	r3, [r0, #8]
+  41:Src/fsmc.c    ****   hnand1.Init.EccComputation = FSMC_NAND_ECC_DISABLE;
+ 237              		.loc 1 41 3 is_stmt 1 view .LVU54
+  41:Src/fsmc.c    ****   hnand1.Init.EccComputation = FSMC_NAND_ECC_DISABLE;
+ 238              		.loc 1 41 31 is_stmt 0 view .LVU55
+ 239 0012 0023     		movs	r3, #0
+ 240 0014 C360     		str	r3, [r0, #12]
+  42:Src/fsmc.c    ****   hnand1.Init.ECCPageSize = FSMC_NAND_ECC_PAGE_SIZE_256BYTE;
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccGs9rie.s 			page 9
+
+
+ 241              		.loc 1 42 3 is_stmt 1 view .LVU56
+  42:Src/fsmc.c    ****   hnand1.Init.ECCPageSize = FSMC_NAND_ECC_PAGE_SIZE_256BYTE;
+ 242              		.loc 1 42 30 is_stmt 0 view .LVU57
+ 243 0016 0361     		str	r3, [r0, #16]
+  43:Src/fsmc.c    ****   hnand1.Init.TCLRSetupTime = 0;
+ 244              		.loc 1 43 3 is_stmt 1 view .LVU58
+  43:Src/fsmc.c    ****   hnand1.Init.TCLRSetupTime = 0;
+ 245              		.loc 1 43 27 is_stmt 0 view .LVU59
+ 246 0018 4361     		str	r3, [r0, #20]
+  44:Src/fsmc.c    ****   hnand1.Init.TARSetupTime = 0;
+ 247              		.loc 1 44 3 is_stmt 1 view .LVU60
+  44:Src/fsmc.c    ****   hnand1.Init.TARSetupTime = 0;
+ 248              		.loc 1 44 29 is_stmt 0 view .LVU61
+ 249 001a 8361     		str	r3, [r0, #24]
+  45:Src/fsmc.c    ****   /* hnand1.Config */
+ 250              		.loc 1 45 3 is_stmt 1 view .LVU62
+  45:Src/fsmc.c    ****   /* hnand1.Config */
+ 251              		.loc 1 45 28 is_stmt 0 view .LVU63
+ 252 001c C361     		str	r3, [r0, #28]
+  47:Src/fsmc.c    ****   hnand1.Config.SpareAreaSize = 0;
+ 253              		.loc 1 47 3 is_stmt 1 view .LVU64
+  47:Src/fsmc.c    ****   hnand1.Config.SpareAreaSize = 0;
+ 254              		.loc 1 47 26 is_stmt 0 view .LVU65
+ 255 001e 4362     		str	r3, [r0, #36]
+  48:Src/fsmc.c    ****   hnand1.Config.BlockSize = 0;
+ 256              		.loc 1 48 3 is_stmt 1 view .LVU66
+  48:Src/fsmc.c    ****   hnand1.Config.BlockSize = 0;
+ 257              		.loc 1 48 31 is_stmt 0 view .LVU67
+ 258 0020 8362     		str	r3, [r0, #40]
+  49:Src/fsmc.c    ****   hnand1.Config.BlockNbr = 0;
+ 259              		.loc 1 49 3 is_stmt 1 view .LVU68
+  49:Src/fsmc.c    ****   hnand1.Config.BlockNbr = 0;
+ 260              		.loc 1 49 27 is_stmt 0 view .LVU69
+ 261 0022 C362     		str	r3, [r0, #44]
+  50:Src/fsmc.c    ****   hnand1.Config.PlaneNbr = 0;
+ 262              		.loc 1 50 3 is_stmt 1 view .LVU70
+  50:Src/fsmc.c    ****   hnand1.Config.PlaneNbr = 0;
+ 263              		.loc 1 50 26 is_stmt 0 view .LVU71
+ 264 0024 0363     		str	r3, [r0, #48]
+  51:Src/fsmc.c    ****   hnand1.Config.PlaneSize = 0;
+ 265              		.loc 1 51 3 is_stmt 1 view .LVU72
+  51:Src/fsmc.c    ****   hnand1.Config.PlaneSize = 0;
+ 266              		.loc 1 51 26 is_stmt 0 view .LVU73
+ 267 0026 4363     		str	r3, [r0, #52]
+  52:Src/fsmc.c    ****   hnand1.Config.ExtraCommandEnable = DISABLE;
+ 268              		.loc 1 52 3 is_stmt 1 view .LVU74
+  52:Src/fsmc.c    ****   hnand1.Config.ExtraCommandEnable = DISABLE;
+ 269              		.loc 1 52 27 is_stmt 0 view .LVU75
+ 270 0028 8363     		str	r3, [r0, #56]
+  53:Src/fsmc.c    ****   /* ComSpaceTiming */
+ 271              		.loc 1 53 3 is_stmt 1 view .LVU76
+  53:Src/fsmc.c    ****   /* ComSpaceTiming */
+ 272              		.loc 1 53 36 is_stmt 0 view .LVU77
+ 273 002a 80F83C30 		strb	r3, [r0, #60]
+  55:Src/fsmc.c    ****   ComSpaceTiming.WaitSetupTime = 252;
+ 274              		.loc 1 55 3 is_stmt 1 view .LVU78
+  55:Src/fsmc.c    ****   ComSpaceTiming.WaitSetupTime = 252;
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccGs9rie.s 			page 10
+
+
+ 275              		.loc 1 55 28 is_stmt 0 view .LVU79
+ 276 002e FC23     		movs	r3, #252
+ 277 0030 0493     		str	r3, [sp, #16]
+  56:Src/fsmc.c    ****   ComSpaceTiming.HoldSetupTime = 252;
+ 278              		.loc 1 56 3 is_stmt 1 view .LVU80
+  56:Src/fsmc.c    ****   ComSpaceTiming.HoldSetupTime = 252;
+ 279              		.loc 1 56 32 is_stmt 0 view .LVU81
+ 280 0032 0593     		str	r3, [sp, #20]
+  57:Src/fsmc.c    ****   ComSpaceTiming.HiZSetupTime = 252;
+ 281              		.loc 1 57 3 is_stmt 1 view .LVU82
+  57:Src/fsmc.c    ****   ComSpaceTiming.HiZSetupTime = 252;
+ 282              		.loc 1 57 32 is_stmt 0 view .LVU83
+ 283 0034 0693     		str	r3, [sp, #24]
+  58:Src/fsmc.c    ****   /* AttSpaceTiming */
+ 284              		.loc 1 58 3 is_stmt 1 view .LVU84
+  58:Src/fsmc.c    ****   /* AttSpaceTiming */
+ 285              		.loc 1 58 31 is_stmt 0 view .LVU85
+ 286 0036 0793     		str	r3, [sp, #28]
+  60:Src/fsmc.c    ****   AttSpaceTiming.WaitSetupTime = 252;
+ 287              		.loc 1 60 3 is_stmt 1 view .LVU86
+  60:Src/fsmc.c    ****   AttSpaceTiming.WaitSetupTime = 252;
+ 288              		.loc 1 60 28 is_stmt 0 view .LVU87
+ 289 0038 0093     		str	r3, [sp]
+  61:Src/fsmc.c    ****   AttSpaceTiming.HoldSetupTime = 252;
+ 290              		.loc 1 61 3 is_stmt 1 view .LVU88
+  61:Src/fsmc.c    ****   AttSpaceTiming.HoldSetupTime = 252;
+ 291              		.loc 1 61 32 is_stmt 0 view .LVU89
+ 292 003a 0193     		str	r3, [sp, #4]
+  62:Src/fsmc.c    ****   AttSpaceTiming.HiZSetupTime = 252;
+ 293              		.loc 1 62 3 is_stmt 1 view .LVU90
+  62:Src/fsmc.c    ****   AttSpaceTiming.HiZSetupTime = 252;
+ 294              		.loc 1 62 32 is_stmt 0 view .LVU91
+ 295 003c 0293     		str	r3, [sp, #8]
+  63:Src/fsmc.c    **** 
+ 296              		.loc 1 63 3 is_stmt 1 view .LVU92
+  63:Src/fsmc.c    **** 
+ 297              		.loc 1 63 31 is_stmt 0 view .LVU93
+ 298 003e 0393     		str	r3, [sp, #12]
+  65:Src/fsmc.c    ****   {
+ 299              		.loc 1 65 3 is_stmt 1 view .LVU94
+  65:Src/fsmc.c    ****   {
+ 300              		.loc 1 65 7 is_stmt 0 view .LVU95
+ 301 0040 6A46     		mov	r2, sp
+ 302 0042 04A9     		add	r1, sp, #16
+ 303 0044 FFF7FEFF 		bl	HAL_NAND_Init
+ 304              	.LVL4:
+  65:Src/fsmc.c    ****   {
+ 305              		.loc 1 65 6 view .LVU96
+ 306 0048 10B9     		cbnz	r0, .L17
+ 307              	.L14:
+  70:Src/fsmc.c    **** 
+ 308              		.loc 1 70 1 view .LVU97
+ 309 004a 09B0     		add	sp, sp, #36
+ 310              	.LCFI7:
+ 311              		.cfi_remember_state
+ 312              		.cfi_def_cfa_offset 4
+ 313              		@ sp needed
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccGs9rie.s 			page 11
+
+
+ 314 004c 5DF804FB 		ldr	pc, [sp], #4
+ 315              	.L17:
+ 316              	.LCFI8:
+ 317              		.cfi_restore_state
+  67:Src/fsmc.c    ****   }
+ 318              		.loc 1 67 5 is_stmt 1 view .LVU98
+ 319 0050 FFF7FEFF 		bl	Error_Handler
+ 320              	.LVL5:
+  70:Src/fsmc.c    **** 
+ 321              		.loc 1 70 1 is_stmt 0 view .LVU99
+ 322 0054 F9E7     		b	.L14
+ 323              	.L19:
+ 324 0056 00BF     		.align	2
+ 325              	.L18:
+ 326 0058 00000000 		.word	hnand1
+ 327 005c 600000A0 		.word	-1610612640
+ 328              		.cfi_endproc
+ 329              	.LFE72:
+ 331              		.section	.text.HAL_NAND_MspInit,"ax",%progbits
+ 332              		.align	1
+ 333              		.global	HAL_NAND_MspInit
+ 334              		.syntax unified
+ 335              		.thumb
+ 336              		.thumb_func
+ 337              		.fpu softvfp
+ 339              	HAL_NAND_MspInit:
+ 340              	.LVL6:
+ 341              	.LFB74:
+ 127:Src/fsmc.c    ****   /* USER CODE BEGIN NAND_MspInit 0 */
+ 342              		.loc 1 127 54 is_stmt 1 view -0
+ 343              		.cfi_startproc
+ 344              		@ args = 0, pretend = 0, frame = 0
+ 345              		@ frame_needed = 0, uses_anonymous_args = 0
+ 127:Src/fsmc.c    ****   /* USER CODE BEGIN NAND_MspInit 0 */
+ 346              		.loc 1 127 54 is_stmt 0 view .LVU101
+ 347 0000 08B5     		push	{r3, lr}
+ 348              	.LCFI9:
+ 349              		.cfi_def_cfa_offset 8
+ 350              		.cfi_offset 3, -8
+ 351              		.cfi_offset 14, -4
+ 131:Src/fsmc.c    ****   /* USER CODE BEGIN NAND_MspInit 1 */
+ 352              		.loc 1 131 3 is_stmt 1 view .LVU102
+ 353 0002 FFF7FEFF 		bl	HAL_FSMC_MspInit
+ 354              	.LVL7:
+ 135:Src/fsmc.c    **** 
+ 355              		.loc 1 135 1 is_stmt 0 view .LVU103
+ 356 0006 08BD     		pop	{r3, pc}
+ 357              		.cfi_endproc
+ 358              	.LFE74:
+ 360              		.section	.text.HAL_NAND_MspDeInit,"ax",%progbits
+ 361              		.align	1
+ 362              		.global	HAL_NAND_MspDeInit
+ 363              		.syntax unified
+ 364              		.thumb
+ 365              		.thumb_func
+ 366              		.fpu softvfp
+ 368              	HAL_NAND_MspDeInit:
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccGs9rie.s 			page 12
+
+
+ 369              	.LVL8:
+ 370              	.LFB76:
+ 177:Src/fsmc.c    **** 
+ 178:Src/fsmc.c    **** void HAL_NAND_MspDeInit(NAND_HandleTypeDef* nandHandle){
+ 371              		.loc 1 178 56 is_stmt 1 view -0
+ 372              		.cfi_startproc
+ 373              		@ args = 0, pretend = 0, frame = 0
+ 374              		@ frame_needed = 0, uses_anonymous_args = 0
+ 375              		.loc 1 178 56 is_stmt 0 view .LVU105
+ 376 0000 08B5     		push	{r3, lr}
+ 377              	.LCFI10:
+ 378              		.cfi_def_cfa_offset 8
+ 379              		.cfi_offset 3, -8
+ 380              		.cfi_offset 14, -4
+ 179:Src/fsmc.c    ****   /* USER CODE BEGIN NAND_MspDeInit 0 */
+ 180:Src/fsmc.c    **** 
+ 181:Src/fsmc.c    ****   /* USER CODE END NAND_MspDeInit 0 */
+ 182:Src/fsmc.c    ****   HAL_FSMC_MspDeInit();
+ 381              		.loc 1 182 3 is_stmt 1 view .LVU106
+ 382 0002 FFF7FEFF 		bl	HAL_FSMC_MspDeInit
+ 383              	.LVL9:
+ 183:Src/fsmc.c    ****   /* USER CODE BEGIN NAND_MspDeInit 1 */
+ 184:Src/fsmc.c    **** 
+ 185:Src/fsmc.c    ****   /* USER CODE END NAND_MspDeInit 1 */
+ 186:Src/fsmc.c    **** }
+ 384              		.loc 1 186 1 is_stmt 0 view .LVU107
+ 385 0006 08BD     		pop	{r3, pc}
+ 386              		.cfi_endproc
+ 387              	.LFE76:
+ 389              		.comm	hnand1,64,4
+ 390              		.section	.bss.FSMC_DeInitialized,"aw",%nobits
+ 391              		.align	2
+ 392              		.set	.LANCHOR1,. + 0
+ 395              	FSMC_DeInitialized:
+ 396 0000 00000000 		.space	4
+ 397              		.section	.bss.FSMC_Initialized,"aw",%nobits
+ 398              		.align	2
+ 399              		.set	.LANCHOR0,. + 0
+ 402              	FSMC_Initialized:
+ 403 0000 00000000 		.space	4
+ 404              		.text
+ 405              	.Letext0:
+ 406              		.file 2 "c:\\users\\user\\appdata\\roaming\\gnumcueclipse\\armembeddedgcc\\arm-none-eabi\\include\
+ 407              		.file 3 "c:\\users\\user\\appdata\\roaming\\gnumcueclipse\\armembeddedgcc\\arm-none-eabi\\include\
+ 408              		.file 4 "Drivers/CMSIS/Include/core_cm3.h"
+ 409              		.file 5 "Drivers/CMSIS/Device/ST/STM32F2xx/Include/system_stm32f2xx.h"
+ 410              		.file 6 "Drivers/CMSIS/Device/ST/STM32F2xx/Include/stm32f215xx.h"
+ 411              		.file 7 "Drivers/CMSIS/Device/ST/STM32F2xx/Include/stm32f2xx.h"
+ 412              		.file 8 "Drivers/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_def.h"
+ 413              		.file 9 "Drivers/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_gpio.h"
+ 414              		.file 10 "Drivers/STM32F2xx_HAL_Driver/Inc/stm32f2xx_ll_fsmc.h"
+ 415              		.file 11 "Drivers/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_nand.h"
+ 416              		.file 12 "Drivers/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal.h"
+ 417              		.file 13 "Inc/fsmc.h"
+ 418              		.file 14 "Inc/main.h"
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccGs9rie.s 			page 13
+
+
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 fsmc.c
+C:\Users\User\AppData\Local\Temp\ccGs9rie.s:16     .text.HAL_FSMC_MspInit:0000000000000000 $t
+C:\Users\User\AppData\Local\Temp\ccGs9rie.s:23     .text.HAL_FSMC_MspInit:0000000000000000 HAL_FSMC_MspInit
+C:\Users\User\AppData\Local\Temp\ccGs9rie.s:135    .text.HAL_FSMC_MspInit:000000000000006c $d
+C:\Users\User\AppData\Local\Temp\ccGs9rie.s:143    .text.HAL_FSMC_MspDeInit:0000000000000000 $t
+C:\Users\User\AppData\Local\Temp\ccGs9rie.s:149    .text.HAL_FSMC_MspDeInit:0000000000000000 HAL_FSMC_MspDeInit
+C:\Users\User\AppData\Local\Temp\ccGs9rie.s:194    .text.HAL_FSMC_MspDeInit:0000000000000030 $d
+C:\Users\User\AppData\Local\Temp\ccGs9rie.s:202    .text.MX_FSMC_Init:0000000000000000 $t
+C:\Users\User\AppData\Local\Temp\ccGs9rie.s:209    .text.MX_FSMC_Init:0000000000000000 MX_FSMC_Init
+C:\Users\User\AppData\Local\Temp\ccGs9rie.s:326    .text.MX_FSMC_Init:0000000000000058 $d
+                            *COM*:0000000000000040 hnand1
+C:\Users\User\AppData\Local\Temp\ccGs9rie.s:332    .text.HAL_NAND_MspInit:0000000000000000 $t
+C:\Users\User\AppData\Local\Temp\ccGs9rie.s:339    .text.HAL_NAND_MspInit:0000000000000000 HAL_NAND_MspInit
+C:\Users\User\AppData\Local\Temp\ccGs9rie.s:361    .text.HAL_NAND_MspDeInit:0000000000000000 $t
+C:\Users\User\AppData\Local\Temp\ccGs9rie.s:368    .text.HAL_NAND_MspDeInit:0000000000000000 HAL_NAND_MspDeInit
+C:\Users\User\AppData\Local\Temp\ccGs9rie.s:391    .bss.FSMC_DeInitialized:0000000000000000 $d
+C:\Users\User\AppData\Local\Temp\ccGs9rie.s:395    .bss.FSMC_DeInitialized:0000000000000000 FSMC_DeInitialized
+C:\Users\User\AppData\Local\Temp\ccGs9rie.s:398    .bss.FSMC_Initialized:0000000000000000 $d
+C:\Users\User\AppData\Local\Temp\ccGs9rie.s:402    .bss.FSMC_Initialized:0000000000000000 FSMC_Initialized
+
+UNDEFINED SYMBOLS
+HAL_GPIO_Init
+HAL_GPIO_DeInit
+HAL_NAND_Init
+Error_Handler
