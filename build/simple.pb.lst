@@ -1,0 +1,56 @@
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccDJrk0S.s 			page 1
+
+
+   1              		.cpu cortex-m3
+   2              		.eabi_attribute 20, 1
+   3              		.eabi_attribute 21, 1
+   4              		.eabi_attribute 23, 3
+   5              		.eabi_attribute 24, 1
+   6              		.eabi_attribute 25, 1
+   7              		.eabi_attribute 26, 1
+   8              		.eabi_attribute 30, 1
+   9              		.eabi_attribute 34, 1
+  10              		.eabi_attribute 18, 4
+  11              		.file	"simple.pb.c"
+  12              		.text
+  13              	.Ltext0:
+  14              		.cfi_sections	.debug_frame
+  15              		.global	SimpleMessage_fields
+  16              		.section	.rodata.SimpleMessage_fields,"a"
+  17              		.align	2
+  20              	SimpleMessage_fields:
+  21 0000 01       		.byte	1
+  22 0001 00       		.byte	0
+  23 0002 00       		.byte	0
+  24 0003 00       		.byte	0
+  25 0004 04       		.byte	4
+  26 0005 00       		.byte	0
+  27 0006 00000000 		.4byte	0
+  28 000a 00       		.byte	0
+  29 000b 00       		.byte	0
+  30 000c 00       		.byte	0
+  31 000d 00       		.byte	0
+  32 000e 00       		.byte	0
+  33 000f 00       		.byte	0
+  34 0010 00000000 		.4byte	0
+  35              		.text
+  36              	.Letext0:
+  37              		.file 1 "c:\\users\\user\\appdata\\roaming\\gnumcueclipse\\armembeddedgcc\\arm-none-eabi\\include\
+  38              		.file 2 "c:\\users\\user\\appdata\\roaming\\gnumcueclipse\\armembeddedgcc\\arm-none-eabi\\include\
+  39              		.file 3 "c:\\users\\user\\appdata\\roaming\\gnumcueclipse\\armembeddedgcc\\arm-none-eabi\\include\
+  40              		.file 4 "c:\\users\\user\\appdata\\roaming\\gnumcueclipse\\armembeddedgcc\\arm-none-eabi\\include\
+  41              		.file 5 "c:\\users\\user\\appdata\\roaming\\gnumcueclipse\\armembeddedgcc\\arm-none-eabi\\include\
+  42              		.file 6 "c:\\users\\user\\appdata\\roaming\\gnumcueclipse\\armembeddedgcc\\lib\\gcc\\arm-none-eabi
+  43              		.file 7 "c:\\users\\user\\appdata\\roaming\\gnumcueclipse\\armembeddedgcc\\arm-none-eabi\\include\
+  44              		.file 8 "nanopb/pb.h"
+  45              		.file 9 "nanopb/simple.pb.h"
+  46              		.file 10 "nanopb/simple.pb.c"
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccDJrk0S.s 			page 2
+
+
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 simple.pb.c
+C:\Users\User\AppData\Local\Temp\ccDJrk0S.s:20     .rodata.SimpleMessage_fields:0000000000000000 SimpleMessage_fields
+C:\Users\User\AppData\Local\Temp\ccDJrk0S.s:17     .rodata.SimpleMessage_fields:0000000000000000 $d
+
+NO UNDEFINED SYMBOLS

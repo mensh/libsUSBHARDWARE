@@ -1,0 +1,485 @@
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccae4YTc.s 			page 1
+
+
+   1              		.cpu cortex-m3
+   2              		.eabi_attribute 20, 1
+   3              		.eabi_attribute 21, 1
+   4              		.eabi_attribute 23, 3
+   5              		.eabi_attribute 24, 1
+   6              		.eabi_attribute 25, 1
+   7              		.eabi_attribute 26, 1
+   8              		.eabi_attribute 30, 1
+   9              		.eabi_attribute 34, 1
+  10              		.eabi_attribute 18, 4
+  11              		.file	"pb_common.c"
+  12              		.text
+  13              	.Ltext0:
+  14              		.cfi_sections	.debug_frame
+  15              		.section	.text.pb_field_iter_begin,"ax",%progbits
+  16              		.align	1
+  17              		.global	pb_field_iter_begin
+  18              		.arch armv7-m
+  19              		.syntax unified
+  20              		.thumb
+  21              		.thumb_func
+  22              		.fpu softvfp
+  24              	pb_field_iter_begin:
+  25              	.LVL0:
+  26              	.LFB0:
+  27              		.file 1 "nanopb/pb_common.c"
+   1:nanopb/pb_common.c **** /* pb_common.c: Common support functions for pb_encode.c and pb_decode.c.
+   2:nanopb/pb_common.c ****  *
+   3:nanopb/pb_common.c ****  * 2014 Petteri Aimonen <jpa@kapsi.fi>
+   4:nanopb/pb_common.c ****  */
+   5:nanopb/pb_common.c **** 
+   6:nanopb/pb_common.c **** #include "pb_common.h"
+   7:nanopb/pb_common.c **** 
+   8:nanopb/pb_common.c **** bool pb_field_iter_begin(pb_field_iter_t *iter, const pb_field_t *fields, void *dest_struct)
+   9:nanopb/pb_common.c **** {
+  28              		.loc 1 9 1 view -0
+  29              		.cfi_startproc
+  30              		@ args = 0, pretend = 0, frame = 0
+  31              		@ frame_needed = 0, uses_anonymous_args = 0
+  32              		@ link register save eliminated.
+  10:nanopb/pb_common.c ****     iter->start = fields;
+  33              		.loc 1 10 5 view .LVU1
+  34              		.loc 1 10 17 is_stmt 0 view .LVU2
+  35 0000 0160     		str	r1, [r0]
+  11:nanopb/pb_common.c ****     iter->pos = fields;
+  36              		.loc 1 11 5 is_stmt 1 view .LVU3
+  37              		.loc 1 11 15 is_stmt 0 view .LVU4
+  38 0002 4160     		str	r1, [r0, #4]
+  12:nanopb/pb_common.c ****     iter->required_field_index = 0;
+  39              		.loc 1 12 5 is_stmt 1 view .LVU5
+  40              		.loc 1 12 32 is_stmt 0 view .LVU6
+  41 0004 0023     		movs	r3, #0
+  42 0006 8360     		str	r3, [r0, #8]
+  13:nanopb/pb_common.c ****     iter->dest_struct = dest_struct;
+  43              		.loc 1 13 5 is_stmt 1 view .LVU7
+  44              		.loc 1 13 23 is_stmt 0 view .LVU8
+  45 0008 C260     		str	r2, [r0, #12]
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccae4YTc.s 			page 2
+
+
+  14:nanopb/pb_common.c ****     iter->pData = (char*)dest_struct + iter->pos->data_offset;
+  46              		.loc 1 14 5 is_stmt 1 view .LVU9
+  47              		.loc 1 14 49 is_stmt 0 view .LVU10
+  48 000a 8B78     		ldrb	r3, [r1, #2]	@ zero_extendqisi2
+  49              		.loc 1 14 38 view .LVU11
+  50 000c 1A44     		add	r2, r2, r3
+  51              	.LVL1:
+  52              		.loc 1 14 17 view .LVU12
+  53 000e 0261     		str	r2, [r0, #16]
+  15:nanopb/pb_common.c ****     iter->pSize = (char*)iter->pData + iter->pos->size_offset;
+  54              		.loc 1 15 5 is_stmt 1 view .LVU13
+  55              		.loc 1 15 49 is_stmt 0 view .LVU14
+  56 0010 91F90330 		ldrsb	r3, [r1, #3]
+  57              		.loc 1 15 38 view .LVU15
+  58 0014 1A44     		add	r2, r2, r3
+  59              		.loc 1 15 17 view .LVU16
+  60 0016 4261     		str	r2, [r0, #20]
+  16:nanopb/pb_common.c ****     
+  17:nanopb/pb_common.c ****     return (iter->pos->tag != 0);
+  61              		.loc 1 17 5 is_stmt 1 view .LVU17
+  62              		.loc 1 17 22 is_stmt 0 view .LVU18
+  63 0018 0878     		ldrb	r0, [r1]	@ zero_extendqisi2
+  64              	.LVL2:
+  18:nanopb/pb_common.c **** }
+  65              		.loc 1 18 1 view .LVU19
+  66 001a 0030     		adds	r0, r0, #0
+  67 001c 18BF     		it	ne
+  68 001e 0120     		movne	r0, #1
+  69 0020 7047     		bx	lr
+  70              		.cfi_endproc
+  71              	.LFE0:
+  73              		.section	.text.pb_field_iter_next,"ax",%progbits
+  74              		.align	1
+  75              		.global	pb_field_iter_next
+  76              		.syntax unified
+  77              		.thumb
+  78              		.thumb_func
+  79              		.fpu softvfp
+  81              	pb_field_iter_next:
+  82              	.LVL3:
+  83              	.LFB1:
+  19:nanopb/pb_common.c **** 
+  20:nanopb/pb_common.c **** bool pb_field_iter_next(pb_field_iter_t *iter)
+  21:nanopb/pb_common.c **** {
+  84              		.loc 1 21 1 is_stmt 1 view -0
+  85              		.cfi_startproc
+  86              		@ args = 0, pretend = 0, frame = 0
+  87              		@ frame_needed = 0, uses_anonymous_args = 0
+  22:nanopb/pb_common.c ****     const pb_field_t *prev_field = iter->pos;
+  88              		.loc 1 22 5 view .LVU21
+  89              		.loc 1 22 23 is_stmt 0 view .LVU22
+  90 0000 4368     		ldr	r3, [r0, #4]
+  91              	.LVL4:
+  23:nanopb/pb_common.c **** 
+  24:nanopb/pb_common.c ****     if (prev_field->tag == 0)
+  92              		.loc 1 24 5 is_stmt 1 view .LVU23
+  93              		.loc 1 24 19 is_stmt 0 view .LVU24
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccae4YTc.s 			page 3
+
+
+  94 0002 1A78     		ldrb	r2, [r3]	@ zero_extendqisi2
+  95              		.loc 1 24 8 view .LVU25
+  96 0004 002A     		cmp	r2, #0
+  97 0006 36D0     		beq	.L9
+  21:nanopb/pb_common.c ****     const pb_field_t *prev_field = iter->pos;
+  98              		.loc 1 21 1 view .LVU26
+  99 0008 70B5     		push	{r4, r5, r6, lr}
+ 100              	.LCFI0:
+ 101              		.cfi_def_cfa_offset 16
+ 102              		.cfi_offset 4, -16
+ 103              		.cfi_offset 5, -12
+ 104              		.cfi_offset 6, -8
+ 105              		.cfi_offset 14, -4
+  25:nanopb/pb_common.c ****     {
+  26:nanopb/pb_common.c ****         /* Handle empty message types, where the first field is already the terminator.
+  27:nanopb/pb_common.c ****          * In other cases, the iter->pos never points to the terminator. */
+  28:nanopb/pb_common.c ****         return false;
+  29:nanopb/pb_common.c ****     }
+  30:nanopb/pb_common.c ****     
+  31:nanopb/pb_common.c ****     iter->pos++;
+ 106              		.loc 1 31 5 is_stmt 1 view .LVU27
+ 107              		.loc 1 31 14 is_stmt 0 view .LVU28
+ 108 000a 03F10A02 		add	r2, r3, #10
+ 109 000e 4260     		str	r2, [r0, #4]
+  32:nanopb/pb_common.c ****     
+  33:nanopb/pb_common.c ****     if (iter->pos->tag == 0)
+ 110              		.loc 1 33 5 is_stmt 1 view .LVU29
+ 111              		.loc 1 33 18 is_stmt 0 view .LVU30
+ 112 0010 997A     		ldrb	r1, [r3, #10]	@ zero_extendqisi2
+ 113              		.loc 1 33 8 view .LVU31
+ 114 0012 21B3     		cbz	r1, .L16
+ 115              	.LBB2:
+  34:nanopb/pb_common.c ****     {
+  35:nanopb/pb_common.c ****         /* Wrapped back to beginning, reinitialize */
+  36:nanopb/pb_common.c ****         (void)pb_field_iter_begin(iter, iter->start, iter->dest_struct);
+  37:nanopb/pb_common.c ****         return false;
+  38:nanopb/pb_common.c ****     }
+  39:nanopb/pb_common.c ****     else
+  40:nanopb/pb_common.c ****     {
+  41:nanopb/pb_common.c ****         /* Increment the pointers based on previous field size */
+  42:nanopb/pb_common.c ****         size_t prev_size = prev_field->data_size;
+ 116              		.loc 1 42 9 is_stmt 1 view .LVU32
+ 117              		.loc 1 42 38 is_stmt 0 view .LVU33
+ 118 0014 1D79     		ldrb	r5, [r3, #4]	@ zero_extendqisi2
+ 119              	.LVL5:
+  43:nanopb/pb_common.c ****     
+  44:nanopb/pb_common.c ****         if (PB_HTYPE(prev_field->type) == PB_HTYPE_ONEOF &&
+ 120              		.loc 1 44 9 is_stmt 1 view .LVU34
+ 121              		.loc 1 44 13 is_stmt 0 view .LVU35
+ 122 0016 5978     		ldrb	r1, [r3, #1]	@ zero_extendqisi2
+ 123 0018 01F03004 		and	r4, r1, #48
+ 124              		.loc 1 44 12 view .LVU36
+ 125 001c 302C     		cmp	r4, #48
+ 126 001e 07D1     		bne	.L5
+  45:nanopb/pb_common.c ****             PB_HTYPE(iter->pos->type) == PB_HTYPE_ONEOF &&
+ 127              		.loc 1 45 13 discriminator 1 view .LVU37
+ 128 0020 5678     		ldrb	r6, [r2, #1]	@ zero_extendqisi2
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccae4YTc.s 			page 4
+
+
+  44:nanopb/pb_common.c ****             PB_HTYPE(iter->pos->type) == PB_HTYPE_ONEOF &&
+ 129              		.loc 1 44 58 discriminator 1 view .LVU38
+ 130 0022 06F03006 		and	r6, r6, #48
+ 131 0026 302E     		cmp	r6, #48
+ 132 0028 02D1     		bne	.L5
+  46:nanopb/pb_common.c ****             iter->pos->data_offset == PB_SIZE_MAX)
+ 133              		.loc 1 46 22 view .LVU39
+ 134 002a 9678     		ldrb	r6, [r2, #2]	@ zero_extendqisi2
+  45:nanopb/pb_common.c ****             PB_HTYPE(iter->pos->type) == PB_HTYPE_ONEOF &&
+ 135              		.loc 1 45 57 view .LVU40
+ 136 002c FF2E     		cmp	r6, #255
+ 137 002e 24D0     		beq	.L10
+ 138              	.L5:
+  47:nanopb/pb_common.c ****         {
+  48:nanopb/pb_common.c ****             /* Don't advance pointers inside unions */
+  49:nanopb/pb_common.c ****             return true;
+  50:nanopb/pb_common.c ****         }
+  51:nanopb/pb_common.c ****         else if (PB_ATYPE(prev_field->type) == PB_ATYPE_STATIC &&
+ 139              		.loc 1 51 14 is_stmt 1 view .LVU41
+ 140              		.loc 1 51 17 is_stmt 0 view .LVU42
+ 141 0030 01F0F006 		and	r6, r1, #240
+ 142 0034 202E     		cmp	r6, #32
+ 143 0036 18D0     		beq	.L17
+  52:nanopb/pb_common.c ****                  PB_HTYPE(prev_field->type) == PB_HTYPE_REPEATED)
+  53:nanopb/pb_common.c ****         {
+  54:nanopb/pb_common.c ****             /* In static arrays, the data_size tells the size of a single entry and
+  55:nanopb/pb_common.c ****              * array_size is the number of entries */
+  56:nanopb/pb_common.c ****             prev_size *= prev_field->array_size;
+  57:nanopb/pb_common.c ****         }
+  58:nanopb/pb_common.c ****         else if (PB_ATYPE(prev_field->type) == PB_ATYPE_POINTER)
+ 144              		.loc 1 58 14 is_stmt 1 view .LVU43
+ 145              		.loc 1 58 17 is_stmt 0 view .LVU44
+ 146 0038 01F0C001 		and	r1, r1, #192
+ 147 003c 8029     		cmp	r1, #128
+ 148 003e 18D0     		beq	.L18
+ 149              	.LVL6:
+ 150              	.L7:
+  59:nanopb/pb_common.c ****         {
+  60:nanopb/pb_common.c ****             /* Pointer fields always have a constant size in the main structure.
+  61:nanopb/pb_common.c ****              * The data_size only applies to the dynamically allocated area. */
+  62:nanopb/pb_common.c ****             prev_size = sizeof(void*);
+  63:nanopb/pb_common.c ****         }
+  64:nanopb/pb_common.c **** 
+  65:nanopb/pb_common.c ****         if (PB_HTYPE(prev_field->type) == PB_HTYPE_REQUIRED)
+ 151              		.loc 1 65 9 is_stmt 1 view .LVU45
+ 152              		.loc 1 65 12 is_stmt 0 view .LVU46
+ 153 0040 14B9     		cbnz	r4, .L8
+  66:nanopb/pb_common.c ****         {
+  67:nanopb/pb_common.c ****             /* Count the required fields, in order to check their presence in the
+  68:nanopb/pb_common.c ****              * decoder. */
+  69:nanopb/pb_common.c ****             iter->required_field_index++;
+ 154              		.loc 1 69 13 is_stmt 1 view .LVU47
+ 155              		.loc 1 69 17 is_stmt 0 view .LVU48
+ 156 0042 8368     		ldr	r3, [r0, #8]
+ 157              		.loc 1 69 39 view .LVU49
+ 158 0044 0133     		adds	r3, r3, #1
+ 159 0046 8360     		str	r3, [r0, #8]
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccae4YTc.s 			page 5
+
+
+ 160              	.L8:
+  70:nanopb/pb_common.c ****         }
+  71:nanopb/pb_common.c ****     
+  72:nanopb/pb_common.c ****         iter->pData = (char*)iter->pData + prev_size + iter->pos->data_offset;
+ 161              		.loc 1 72 9 is_stmt 1 view .LVU50
+ 162              		.loc 1 72 34 is_stmt 0 view .LVU51
+ 163 0048 0369     		ldr	r3, [r0, #16]
+ 164              		.loc 1 72 65 view .LVU52
+ 165 004a 9178     		ldrb	r1, [r2, #2]	@ zero_extendqisi2
+ 166              		.loc 1 72 54 view .LVU53
+ 167 004c 2944     		add	r1, r1, r5
+ 168 004e 0B44     		add	r3, r3, r1
+ 169              		.loc 1 72 21 view .LVU54
+ 170 0050 0361     		str	r3, [r0, #16]
+  73:nanopb/pb_common.c ****         iter->pSize = (char*)iter->pData + iter->pos->size_offset;
+ 171              		.loc 1 73 9 is_stmt 1 view .LVU55
+ 172              		.loc 1 73 53 is_stmt 0 view .LVU56
+ 173 0052 92F90320 		ldrsb	r2, [r2, #3]
+ 174              	.LVL7:
+ 175              		.loc 1 73 42 view .LVU57
+ 176 0056 1344     		add	r3, r3, r2
+ 177              		.loc 1 73 21 view .LVU58
+ 178 0058 4361     		str	r3, [r0, #20]
+  74:nanopb/pb_common.c ****         return true;
+ 179              		.loc 1 74 9 is_stmt 1 view .LVU59
+ 180              		.loc 1 74 16 is_stmt 0 view .LVU60
+ 181 005a 0120     		movs	r0, #1
+ 182              	.LVL8:
+ 183              	.L3:
+ 184              		.loc 1 74 16 view .LVU61
+ 185              	.LBE2:
+  75:nanopb/pb_common.c ****     }
+  76:nanopb/pb_common.c **** }
+ 186              		.loc 1 76 1 view .LVU62
+ 187 005c 70BD     		pop	{r4, r5, r6, pc}
+ 188              	.LVL9:
+ 189              	.L16:
+  36:nanopb/pb_common.c ****         return false;
+ 190              		.loc 1 36 9 is_stmt 1 view .LVU63
+  36:nanopb/pb_common.c ****         return false;
+ 191              		.loc 1 36 15 is_stmt 0 view .LVU64
+ 192 005e C268     		ldr	r2, [r0, #12]
+ 193 0060 0168     		ldr	r1, [r0]
+ 194 0062 FFF7FEFF 		bl	pb_field_iter_begin
+ 195              	.LVL10:
+  37:nanopb/pb_common.c ****     }
+ 196              		.loc 1 37 9 is_stmt 1 view .LVU65
+  37:nanopb/pb_common.c ****     }
+ 197              		.loc 1 37 16 is_stmt 0 view .LVU66
+ 198 0066 0020     		movs	r0, #0
+ 199 0068 F8E7     		b	.L3
+ 200              	.LVL11:
+ 201              	.L17:
+ 202              	.LBB3:
+  56:nanopb/pb_common.c ****         }
+ 203              		.loc 1 56 13 is_stmt 1 view .LVU67
+  56:nanopb/pb_common.c ****         }
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccae4YTc.s 			page 6
+
+
+ 204              		.loc 1 56 36 is_stmt 0 view .LVU68
+ 205 006a 5B79     		ldrb	r3, [r3, #5]	@ zero_extendqisi2
+ 206              	.LVL12:
+  56:nanopb/pb_common.c ****         }
+ 207              		.loc 1 56 23 view .LVU69
+ 208 006c 03FB05F5 		mul	r5, r3, r5
+ 209              	.LVL13:
+  56:nanopb/pb_common.c ****         }
+ 210              		.loc 1 56 23 view .LVU70
+ 211 0070 E6E7     		b	.L7
+ 212              	.LVL14:
+ 213              	.L18:
+  62:nanopb/pb_common.c ****         }
+ 214              		.loc 1 62 23 view .LVU71
+ 215 0072 0425     		movs	r5, #4
+ 216              	.LVL15:
+  62:nanopb/pb_common.c ****         }
+ 217              		.loc 1 62 23 view .LVU72
+ 218 0074 E4E7     		b	.L7
+ 219              	.LVL16:
+ 220              	.L9:
+ 221              	.LCFI1:
+ 222              		.cfi_def_cfa_offset 0
+ 223              		.cfi_restore 4
+ 224              		.cfi_restore 5
+ 225              		.cfi_restore 6
+ 226              		.cfi_restore 14
+  62:nanopb/pb_common.c ****         }
+ 227              		.loc 1 62 23 view .LVU73
+ 228              	.LBE3:
+  28:nanopb/pb_common.c ****     }
+ 229              		.loc 1 28 16 view .LVU74
+ 230 0076 0020     		movs	r0, #0
+ 231              	.LVL17:
+ 232              		.loc 1 76 1 view .LVU75
+ 233 0078 7047     		bx	lr
+ 234              	.LVL18:
+ 235              	.L10:
+ 236              	.LCFI2:
+ 237              		.cfi_def_cfa_offset 16
+ 238              		.cfi_offset 4, -16
+ 239              		.cfi_offset 5, -12
+ 240              		.cfi_offset 6, -8
+ 241              		.cfi_offset 14, -4
+ 242              	.LBB4:
+  49:nanopb/pb_common.c ****         }
+ 243              		.loc 1 49 20 view .LVU76
+ 244 007a 0120     		movs	r0, #1
+ 245              	.LVL19:
+  49:nanopb/pb_common.c ****         }
+ 246              		.loc 1 49 20 view .LVU77
+ 247 007c EEE7     		b	.L3
+ 248              	.LBE4:
+ 249              		.cfi_endproc
+ 250              	.LFE1:
+ 252              		.section	.text.pb_field_iter_find,"ax",%progbits
+ 253              		.align	1
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccae4YTc.s 			page 7
+
+
+ 254              		.global	pb_field_iter_find
+ 255              		.syntax unified
+ 256              		.thumb
+ 257              		.thumb_func
+ 258              		.fpu softvfp
+ 260              	pb_field_iter_find:
+ 261              	.LVL20:
+ 262              	.LFB2:
+  77:nanopb/pb_common.c **** 
+  78:nanopb/pb_common.c **** bool pb_field_iter_find(pb_field_iter_t *iter, uint32_t tag)
+  79:nanopb/pb_common.c **** {
+ 263              		.loc 1 79 1 is_stmt 1 view -0
+ 264              		.cfi_startproc
+ 265              		@ args = 0, pretend = 0, frame = 0
+ 266              		@ frame_needed = 0, uses_anonymous_args = 0
+ 267              		.loc 1 79 1 is_stmt 0 view .LVU79
+ 268 0000 70B5     		push	{r4, r5, r6, lr}
+ 269              	.LCFI3:
+ 270              		.cfi_def_cfa_offset 16
+ 271              		.cfi_offset 4, -16
+ 272              		.cfi_offset 5, -12
+ 273              		.cfi_offset 6, -8
+ 274              		.cfi_offset 14, -4
+ 275 0002 0446     		mov	r4, r0
+ 276 0004 0D46     		mov	r5, r1
+  80:nanopb/pb_common.c ****     const pb_field_t *start = iter->pos;
+ 277              		.loc 1 80 5 is_stmt 1 view .LVU80
+ 278              		.loc 1 80 23 is_stmt 0 view .LVU81
+ 279 0006 4668     		ldr	r6, [r0, #4]
+ 280              	.LVL21:
+ 281              		.loc 1 80 23 view .LVU82
+ 282 0008 05E0     		b	.L22
+ 283              	.LVL22:
+ 284              	.L20:
+  81:nanopb/pb_common.c ****     
+  82:nanopb/pb_common.c ****     do {
+  83:nanopb/pb_common.c ****         if (iter->pos->tag == tag &&
+  84:nanopb/pb_common.c ****             PB_LTYPE(iter->pos->type) != PB_LTYPE_EXTENSION)
+  85:nanopb/pb_common.c ****         {
+  86:nanopb/pb_common.c ****             /* Found the wanted field */
+  87:nanopb/pb_common.c ****             return true;
+  88:nanopb/pb_common.c ****         }
+  89:nanopb/pb_common.c ****         
+  90:nanopb/pb_common.c ****         (void)pb_field_iter_next(iter);
+ 285              		.loc 1 90 9 is_stmt 1 view .LVU83
+ 286              		.loc 1 90 15 is_stmt 0 view .LVU84
+ 287 000a 2046     		mov	r0, r4
+ 288 000c FFF7FEFF 		bl	pb_field_iter_next
+ 289              	.LVL23:
+  91:nanopb/pb_common.c ****     } while (iter->pos != start);
+ 290              		.loc 1 91 18 view .LVU85
+ 291 0010 6368     		ldr	r3, [r4, #4]
+ 292              		.loc 1 91 5 view .LVU86
+ 293 0012 B342     		cmp	r3, r6
+ 294 0014 0AD0     		beq	.L25
+ 295              	.L22:
+  82:nanopb/pb_common.c ****         if (iter->pos->tag == tag &&
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccae4YTc.s 			page 8
+
+
+ 296              		.loc 1 82 5 is_stmt 1 view .LVU87
+  83:nanopb/pb_common.c ****             PB_LTYPE(iter->pos->type) != PB_LTYPE_EXTENSION)
+ 297              		.loc 1 83 9 view .LVU88
+  83:nanopb/pb_common.c ****             PB_LTYPE(iter->pos->type) != PB_LTYPE_EXTENSION)
+ 298              		.loc 1 83 17 is_stmt 0 view .LVU89
+ 299 0016 6368     		ldr	r3, [r4, #4]
+  83:nanopb/pb_common.c ****             PB_LTYPE(iter->pos->type) != PB_LTYPE_EXTENSION)
+ 300              		.loc 1 83 22 view .LVU90
+ 301 0018 1A78     		ldrb	r2, [r3]	@ zero_extendqisi2
+  83:nanopb/pb_common.c ****             PB_LTYPE(iter->pos->type) != PB_LTYPE_EXTENSION)
+ 302              		.loc 1 83 12 view .LVU91
+ 303 001a AA42     		cmp	r2, r5
+ 304 001c F5D1     		bne	.L20
+  84:nanopb/pb_common.c ****         {
+ 305              		.loc 1 84 13 discriminator 1 view .LVU92
+ 306 001e 5B78     		ldrb	r3, [r3, #1]	@ zero_extendqisi2
+  83:nanopb/pb_common.c ****             PB_LTYPE(iter->pos->type) != PB_LTYPE_EXTENSION)
+ 307              		.loc 1 83 35 discriminator 1 view .LVU93
+ 308 0020 03F00F03 		and	r3, r3, #15
+ 309 0024 082B     		cmp	r3, #8
+ 310 0026 F0D0     		beq	.L20
+  87:nanopb/pb_common.c ****         }
+ 311              		.loc 1 87 20 view .LVU94
+ 312 0028 0120     		movs	r0, #1
+ 313 002a 00E0     		b	.L21
+ 314              	.L25:
+  92:nanopb/pb_common.c ****     
+  93:nanopb/pb_common.c ****     /* Searched all the way back to start, and found nothing. */
+  94:nanopb/pb_common.c ****     return false;
+ 315              		.loc 1 94 12 view .LVU95
+ 316 002c 0020     		movs	r0, #0
+ 317              	.L21:
+  95:nanopb/pb_common.c **** }
+ 318              		.loc 1 95 1 view .LVU96
+ 319 002e 70BD     		pop	{r4, r5, r6, pc}
+ 320              		.loc 1 95 1 view .LVU97
+ 321              		.cfi_endproc
+ 322              	.LFE2:
+ 324              		.text
+ 325              	.Letext0:
+ 326              		.file 2 "c:\\users\\user\\appdata\\roaming\\gnumcueclipse\\armembeddedgcc\\arm-none-eabi\\include\
+ 327              		.file 3 "c:\\users\\user\\appdata\\roaming\\gnumcueclipse\\armembeddedgcc\\arm-none-eabi\\include\
+ 328              		.file 4 "c:\\users\\user\\appdata\\roaming\\gnumcueclipse\\armembeddedgcc\\arm-none-eabi\\include\
+ 329              		.file 5 "c:\\users\\user\\appdata\\roaming\\gnumcueclipse\\armembeddedgcc\\lib\\gcc\\arm-none-eabi
+ 330              		.file 6 "c:\\users\\user\\appdata\\roaming\\gnumcueclipse\\armembeddedgcc\\arm-none-eabi\\include\
+ 331              		.file 7 "c:\\users\\user\\appdata\\roaming\\gnumcueclipse\\armembeddedgcc\\arm-none-eabi\\include\
+ 332              		.file 8 "c:\\users\\user\\appdata\\roaming\\gnumcueclipse\\armembeddedgcc\\arm-none-eabi\\include\
+ 333              		.file 9 "nanopb/pb.h"
+ 334              		.file 10 "nanopb/pb_common.h"
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccae4YTc.s 			page 9
+
+
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 pb_common.c
+C:\Users\User\AppData\Local\Temp\ccae4YTc.s:16     .text.pb_field_iter_begin:0000000000000000 $t
+C:\Users\User\AppData\Local\Temp\ccae4YTc.s:24     .text.pb_field_iter_begin:0000000000000000 pb_field_iter_begin
+C:\Users\User\AppData\Local\Temp\ccae4YTc.s:74     .text.pb_field_iter_next:0000000000000000 $t
+C:\Users\User\AppData\Local\Temp\ccae4YTc.s:81     .text.pb_field_iter_next:0000000000000000 pb_field_iter_next
+C:\Users\User\AppData\Local\Temp\ccae4YTc.s:253    .text.pb_field_iter_find:0000000000000000 $t
+C:\Users\User\AppData\Local\Temp\ccae4YTc.s:260    .text.pb_field_iter_find:0000000000000000 pb_field_iter_find
+
+NO UNDEFINED SYMBOLS

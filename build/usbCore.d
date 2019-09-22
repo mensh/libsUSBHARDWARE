@@ -56,7 +56,9 @@ build/usbCore.o: Src/usbCore.c Inc/main.h \
  Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
  Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
  Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
- Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h
+ Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h \
+ Src/../nanopb/simple.pb.h nanopb/pb.h nanopb/../nanopb/pb_encode.h \
+ nanopb/../nanopb/pb.h nanopb/../nanopb/pb_decode.h
 
 Inc/main.h:
 
@@ -195,3 +197,13 @@ Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:
 Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h:
 
 Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h:
+
+Src/../nanopb/simple.pb.h:
+
+nanopb/pb.h:
+
+nanopb/../nanopb/pb_encode.h:
+
+nanopb/../nanopb/pb.h:
+
+nanopb/../nanopb/pb_decode.h:

@@ -6,6 +6,10 @@
     ],
     "settings": {
         "cortex-debug.armToolchainPath": "C:/Users/User/AppData/Roaming/GNUMCUEclipse/ARMEmbeddedGCC/bin",
-        "cortex-debug.openocdPath": "C:/Users/User/AppData/Roaming/GNUMCUEclipse/OpenOCD/bin/openocd.exe"
+        "cortex-debug.openocdPath": "C:/Users/User/AppData/Roaming/GNUMCUEclipse/OpenOCD/bin/openocd.exe",
+        "files.associations": {
+            "simple.pb.h": "c",
+            "pb_decode.h": "c"
+        }
     }
 }

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 1
 
 
    1              		.cpu cortex-m3
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
   30:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****       (+) Configure the System clock frequency and Flash settings
   31:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****       (+) Configure the AHB and APB busses prescalers
   32:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****       (+) Enable the clock for the peripheral(s) to be used
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 2
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 2
 
 
   33:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****       (+) Configure the clock source(s) for peripherals which clocks are not
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
   87:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c **** #define CLOCKSWITCH_TIMEOUT_VALUE  5000U /* 5 s */
   88:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c **** 
   89:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c **** /* Private macro -------------------------------------------------------------*/
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 3
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 3
 
 
   90:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c **** #define __MCO1_CLK_ENABLE()   __HAL_RCC_GPIOA_CLK_ENABLE()
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  144:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****          (#) CSS (Clock security system), once enable using the macro __HAL_RCC_CSS_ENABLE()
  145:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****              and if a HSE clock failure occurs(HSE used directly or through PLL as System
  146:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****              clock source), the System clocks automatically switched to HSI and an interrupt
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 4
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 4
 
 
  147:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****              is generated if enabled. The interrupt is linked to the Cortex-M3 NMI
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  201:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****  |---------------|----------------|----------------|-----------------|-----------------|
  202:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****  |7WS(8CPU cycle)|      NA        |      NA        |       NA        |112 < HCLK <= 120|
  203:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****  +-------------------------------------------------------------------------------------+
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 5
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 5
 
 
  204:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c **** @endverbatim
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
   52              	.L2:
   53              		.loc 1 232 10 is_stmt 0 view .LVU6
   54 0012 3C4B     		ldr	r3, .L24
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 6
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 6
 
 
   55 0014 1B68     		ldr	r3, [r3]
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  271:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   }
  272:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c **** 
  273:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   /* Get Start Tick */
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 7
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 7
 
 
  274:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   tickstart = HAL_GetTick();
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
   71              		.loc 1 327 1 view .LVU13
   72 0028 1846     		mov	r0, r3
   73 002a 38BD     		pop	{r3, r4, r5, pc}
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 8
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 8
 
 
   74              	.LVL4:
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  114              		.loc 1 259 3 is_stmt 1 view .LVU27
  259:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c **** 
  115              		.loc 1 259 15 is_stmt 0 view .LVU28
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 9
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 9
 
 
  116 005c FFF7FEFF 		bl	HAL_GetTick
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  280:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   {
  158              		.loc 1 280 3 view .LVU41
  159              	.LVL15:
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 10
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 10
 
 
  160              	.L9:
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  200 00c2 1B68     		ldr	r3, [r3]
  298:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   {
  201              		.loc 1 298 9 view .LVU56
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 11
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 11
 
 
  202 00c4 13F0006F 		tst	r3, #134217728
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  319:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   {
  241              		.loc 1 319 5 view .LVU72
  242 00f8 0346     		mov	r3, r0
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 12
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 12
 
 
  243 00fa 0028     		cmp	r0, #0
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  277              		.loc 1 348 5 is_stmt 0 view .LVU77
  278 0000 0028     		cmp	r0, #0
  279 0002 00F0CA81 		beq	.L70
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 13
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 13
 
 
  344:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   uint32_t tickstart;
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  365:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****       {
  366:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****         return HAL_ERROR;
  367:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****       }
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 14
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 14
 
 
  368:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****     }
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  352 0054 A8E1     		b	.L27
  353              	.LVL26:
  354              	.L97:
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 15
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 15
 
 
  362:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****     {
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  381 0078 4AD0     		beq	.L36
  407:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   {
  408:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****     /* Check the parameters */
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 16
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 16
 
 
  409:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****     assert_param(IS_RCC_HSI(RCC_OscInitStruct->HSIState));
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  435:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c **** 
  436:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****         /* Get Start Tick */
  437:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****         tickstart = HAL_GetTick();
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 17
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 17
 
 
  409              		.loc 1 437 9 view .LVU125
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  450 00c4 13F4003F 		tst	r3, #131072
  451 00c8 D3D0     		beq	.L28
  397:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****           {
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 18
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 18
 
 
  452              		.loc 1 397 11 is_stmt 1 view .LVU141
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  494              		.file 2 "Drivers/CMSIS/Include/cmsis_gcc.h"
    1:Drivers/CMSIS/Include/cmsis_gcc.h **** /**************************************************************************//**
    2:Drivers/CMSIS/Include/cmsis_gcc.h ****  * @file     cmsis_gcc.h
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 19
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 19
 
 
    3:Drivers/CMSIS/Include/cmsis_gcc.h ****  * @brief    CMSIS compiler GCC header file
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
   57:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
   58:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef   __WEAK
   59:Drivers/CMSIS/Include/cmsis_gcc.h ****   #define __WEAK                                 __attribute__((weak))
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 20
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 20
 
 
   60:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  114:Drivers/CMSIS/Include/cmsis_gcc.h ****   #define __RESTRICT                             __restrict
  115:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
  116:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 21
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 21
 
 
  117:Drivers/CMSIS/Include/cmsis_gcc.h **** 
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  171:Drivers/CMSIS/Include/cmsis_gcc.h ****   return(result);
  172:Drivers/CMSIS/Include/cmsis_gcc.h **** }
  173:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 22
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 22
 
 
  174:Drivers/CMSIS/Include/cmsis_gcc.h **** 
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  228:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
  229:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Get xPSR Register
  230:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Returns the content of the xPSR Register.
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 23
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 23
 
 
  231:Drivers/CMSIS/Include/cmsis_gcc.h ****   \return               xPSR Register value
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  285:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Set Process Stack Pointer (non-secure)
  286:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Assigns the given value to the non-secure Process Stack Pointer (PSP) when in secure sta
  287:Drivers/CMSIS/Include/cmsis_gcc.h ****   \param [in]    topOfProcStack  Process Stack Pointer value to set
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 24
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 24
 
 
  288:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  342:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
  343:Drivers/CMSIS/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE void __TZ_set_MSP_NS(uint32_t topOfMainStack)
  344:Drivers/CMSIS/Include/cmsis_gcc.h **** {
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 25
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 25
 
 
  345:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("MSR msp_ns, %0" : : "r" (topOfMainStack) : );
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  399:Drivers/CMSIS/Include/cmsis_gcc.h ****   uint32_t result;
  400:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  401:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("MRS %0, primask_ns" : "=r" (result) :: "memory");
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 26
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 26
 
 
  402:Drivers/CMSIS/Include/cmsis_gcc.h ****   return(result);
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  456:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
  457:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Get Base Priority
  458:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Returns the current value of the Base Priority register.
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 27
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 27
 
 
  459:Drivers/CMSIS/Include/cmsis_gcc.h ****   \return               Base Priority register value
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  513:Drivers/CMSIS/Include/cmsis_gcc.h ****            or the new value increases the BASEPRI priority level.
  514:Drivers/CMSIS/Include/cmsis_gcc.h ****   \param [in]    basePri  Base Priority value to set
  515:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 28
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 28
 
 
  516:Drivers/CMSIS/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE void __set_BASEPRI_MAX(uint32_t basePri)
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  570:Drivers/CMSIS/Include/cmsis_gcc.h **** {
  571:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("MSR faultmask_ns, %0" : : "r" (faultMask) : "memory");
  572:Drivers/CMSIS/Include/cmsis_gcc.h **** }
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 29
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 29
 
 
  573:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  627:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  628:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
  629:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Set Process Stack Pointer Limit
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 30
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 30
 
 
  630:Drivers/CMSIS/Include/cmsis_gcc.h ****   Devices without ARMv8-M Main Extensions (i.e. Cortex-M23) lack the non-secure
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  684:Drivers/CMSIS/Include/cmsis_gcc.h ****   return 0U;
  685:Drivers/CMSIS/Include/cmsis_gcc.h **** #else
  686:Drivers/CMSIS/Include/cmsis_gcc.h ****   uint32_t result;
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 31
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 31
 
 
  687:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("MRS %0, msplim" : "=r" (result) );
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  741:Drivers/CMSIS/Include/cmsis_gcc.h ****   Stack Pointer Limit register hence the write is silently ignored.
  742:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  743:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Assigns the given value to the non-secure Main Stack Pointer Limit (MSPLIM) when in secu
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 32
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 32
 
 
  744:Drivers/CMSIS/Include/cmsis_gcc.h ****   \param [in]    MainStackPtrLimit  Main Stack Pointer value to set
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  798:Drivers/CMSIS/Include/cmsis_gcc.h **** // || (__GNUC__ > 7) || (__GNUC__ == 7 && __GNUC_MINOR__ >= 2)
  799:Drivers/CMSIS/Include/cmsis_gcc.h ****   /* see https://gcc.gnu.org/ml/gcc-patches/2017-04/msg00443.html */
  800:Drivers/CMSIS/Include/cmsis_gcc.h ****   __builtin_arm_set_fpscr(fpscr);
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 33
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 33
 
 
  801:Drivers/CMSIS/Include/cmsis_gcc.h **** #else
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  855:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Send Event is a hint instruction. It causes an event to be signaled to the CPU.
  856:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
  857:Drivers/CMSIS/Include/cmsis_gcc.h **** #define __SEV()                             __ASM volatile ("sev")
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 34
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 34
 
 
  858:Drivers/CMSIS/Include/cmsis_gcc.h **** 
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  912:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  913:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
  914:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Reverse byte order (16 bit)
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 35
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 35
 
 
  915:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Reverses the byte order within each halfword of a word. For example, 0x12345678 becomes 
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  969:Drivers/CMSIS/Include/cmsis_gcc.h ****   \param [in]    value  is ignored by the processor.
  970:Drivers/CMSIS/Include/cmsis_gcc.h ****                  If required, a debugger can use it to store additional information about the break
  971:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 36
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 36
 
 
  972:Drivers/CMSIS/Include/cmsis_gcc.h **** #define __BKPT(value)                       __ASM volatile ("bkpt "#value)
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  446:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****         }
  447:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c **** 
  448:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****         /* Adjusts the Internal High Speed oscillator (HSI) calibration value. */
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 37
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 37
 
 
  449:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****         __HAL_RCC_HSI_CALIBRATIONVALUE_ADJUST(RCC_OscInitStruct->HSICalibrationValue);
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  536              	.LVL38:
  537 0126 0546     		mov	r5, r0
  538              	.LVL39:
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 38
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 38
 
 
  484:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c **** 
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  582              	.LBE32:
  583              	.LBE31:
  449:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****       }
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 39
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 39
 
 
  584              		.loc 1 449 9 view .LVU184
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  494:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****     else
  495:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****     {
  496:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****       /* Disable the Internal Low Speed oscillator (LSI). */
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 40
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 40
 
 
  497:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****       __HAL_RCC_LSI_DISABLE();
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  661 01ac 58D0     		beq	.L51
  662              	.LBB33:
  514:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   {
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 41
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 41
 
 
  515:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****     FlagStatus       pwrclkchanged = RESET;
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  530:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c **** 
  531:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****     if(HAL_IS_BIT_CLR(PWR->CR, PWR_CR_DBP))
  702              		.loc 1 531 5 is_stmt 1 view .LVU224
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 42
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 42
 
 
  703              		.loc 1 531 8 is_stmt 0 view .LVU225
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  731 01fc 2FD1     		bne	.L59
  558:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****       {
  559:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****         if((HAL_GetTick() - tickstart ) > RCC_LSE_TIMEOUT_VALUE)
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 43
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 43
 
 
  732              		.loc 1 559 9 is_stmt 1 view .LVU236
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  541:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****         {
  775              		.loc 1 541 27 view .LVU250
  776 0232 801B     		subs	r0, r0, r6
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 44
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 44
 
 
  541:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****         {
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  578:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****     }
  579:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c **** 
  580:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****     /* Restore clock configuration if changed */
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 45
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 45
 
 
  581:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****     if(pwrclkchanged == SET)
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  609:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****         /* Wait till PLL is ready */
  610:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****         while(__HAL_RCC_GET_FLAG(RCC_FLAG_PLLRDY) != RESET)
  611:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****         {
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 46
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 46
 
 
  612:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****           if((HAL_GetTick() - tickstart ) > PLL_TIMEOUT_VALUE)
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  856 028c 64D0     		beq	.L104
  649:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****         {
  650:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****           if((HAL_GetTick() - tickstart ) > PLL_TIMEOUT_VALUE)
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 47
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 47
 
 
  857              		.loc 1 650 11 is_stmt 1 view .LVU281
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  898              	.L64:
  610:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****         {
  899              		.loc 1 610 15 is_stmt 0 view .LVU297
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 48
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 48
 
 
  900 02b4 054B     		ldr	r3, .L107
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  944              	@ 0 "" 2
  945              	.LVL77:
  946              		.loc 2 1001 3 view .LVU308
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 49
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 49
 
 
  947              		.loc 2 1001 3 is_stmt 0 view .LVU309
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  993 031e 92FAA2F2 		rbit r2, r2
  994              	@ 0 "" 2
  995              	.LVL81:
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 50
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 50
 
 
  996              		.loc 2 1001 3 view .LVU320
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  1038              	.L106:
  653:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****           }
  654:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****         }
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 51
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 51
 
 
  655:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****       }
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  669:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****            (READ_BIT(pllcfgr, RCC_PLLCFGR_PLLM) != RCC_OscInitStruct->PLL.PLLM) ||
  1061              		.loc 1 669 76 view .LVU342
  1062 0368 E269     		ldr	r2, [r4, #28]
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 52
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 52
 
 
  669:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****            (READ_BIT(pllcfgr, RCC_PLLCFGR_PLLM) != RCC_OscInitStruct->PLL.PLLM) ||
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  1104              		.cfi_restore 5
  1105              		.cfi_restore 6
  1106              		.cfi_restore 14
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 53
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 53
 
 
  350:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   }
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  1153 03b2 F9E7     		b	.L27
  1154              	.L89:
  1155 03b4 0120     		movs	r0, #1
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 54
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 54
 
 
  1156 03b6 F7E7     		b	.L27
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  705:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   *         (for more details refer to section above "Initialization/de-initialization functions")
  706:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   * @retval None
  707:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   */
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 55
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 55
 
 
  708:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c **** HAL_StatusTypeDef HAL_RCC_ClockConfig(RCC_ClkInitTypeDef  *RCC_ClkInitStruct, uint32_t FLatency)
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  762:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   {
  763:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****     assert_param(IS_RCC_SYSCLKSOURCE(RCC_ClkInitStruct->SYSCLKSource));
  764:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c **** 
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 56
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 56
 
 
  765:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****     /* HSE is selected as System Clock Source */
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  819:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   }
  820:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c **** 
  821:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   /*-------------------------- PCLK1 Configuration ---------------------------*/
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 57
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 57
 
 
  822:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   if(((RCC_ClkInitStruct->ClockType) & RCC_CLOCKTYPE_PCLK1) == RCC_CLOCKTYPE_PCLK1)
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  876:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   *            @arg RCC_MCO2SOURCE_SYSCLK: System clock (SYSCLK) selected as MCO2 source
  877:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   *            @arg RCC_MCO2SOURCE_PLLI2SCLK: PLLI2S clock selected as MCO2 source
  878:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   *            @arg RCC_MCO2SOURCE_HSE: HSE clock selected as MCO2 source
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 58
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 58
 
 
  879:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   *            @arg RCC_MCO2SOURCE_PLLCLK: main PLL clock selected as MCO2 source
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  1219 0010 2A6B     		ldr	r2, [r5, #48]
  1220              	.LVL97:
  1221              		.loc 1 901 5 is_stmt 0 view .LVU378
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 59
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 59
 
 
  1222 0012 42F00102 		orr	r2, r2, #1
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  1265 0046 AC60     		str	r4, [r5, #8]
  1266              	.L111:
  913:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   }
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 60
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 60
 
 
  914:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   else
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  1295              		.loc 1 919 5 view .LVU403
  1296 0062 029A     		ldr	r2, [sp, #8]
  1297              	.LBE45:
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 61
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 61
 
 
  922:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  1337              	.L115:
  1338 0090 00380240 		.word	1073887232
  1339 0094 00000240 		.word	1073872896
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 62
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 62
 
 
  1340 0098 00080240 		.word	1073874944
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  948:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c **** /**
  949:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   * @brief  Disables the Clock Security System.
  950:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   * @retval None
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 63
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 63
 
 
  951:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   */
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  977:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   *
  978:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   * @note   This function can be used by the user application to compute the
  979:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   *         baudrate for the communication peripherals or configure other parameters.
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 64
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 64
 
 
  980:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   *
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
 1007:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****       /* PLL_VCO = (HSE_VALUE or HSI_VALUE / PLLM) * PLLN
 1008:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****       SYSCLK = PLL_VCO / PLLP */
 1009:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****       pllm = RCC->PLLCFGR & RCC_PLLCFGR_PLLM;
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 65
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 65
 
 
  1439              		.loc 1 1009 7 is_stmt 1 view .LVU436
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
 1018:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****         pllvco = (uint32_t) ((((uint64_t) HSI_VALUE * ((uint64_t) ((RCC->PLLCFGR & RCC_PLLCFGR_PLLN
 1019:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****       }
 1020:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****       pllp = ((((RCC->PLLCFGR & RCC_PLLCFGR_PLLP) >> RCC_PLLCFGR_PLLP_Pos) + 1U) *2U);
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 66
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 66
 
 
  1485              		.loc 1 1020 7 is_stmt 1 view .LVU447
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  1523 009c 43EA5073 		orr	r3, r3, r0, lsr #29
  1524 00a0 C400     		lsls	r4, r0, #3
  1525 00a2 1946     		mov	r1, r3
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 67
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 67
 
 
  1526 00a4 6019     		adds	r0, r4, r5
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  709:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   uint32_t tickstart;
  1577              		.loc 1 709 1 is_stmt 1 view -0
  1578              		.cfi_startproc
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 68
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 68
 
 
  1579              		@ args = 0, pretend = 0, frame = 0
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  1618              		.loc 1 741 25 is_stmt 0 view .LVU481
  1619 0028 2368     		ldr	r3, [r4]
  741:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   {
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 69
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 69
 
 
  1620              		.loc 1 741 5 view .LVU482
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  761:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   {
  1661              		.loc 1 761 5 view .LVU496
  1662 0064 13F0010F 		tst	r3, #1
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 70
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 70
 
 
  1663 0068 31D0     		beq	.L141
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  1702 0094 03F00C03 		and	r3, r3, #12
  798:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****     {
  1703              		.loc 1 798 63 view .LVU512
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 71
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 71
 
 
  1704 0098 6268     		ldr	r2, [r4, #4]
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  1744              	.LVL124:
  1745              	.L141:
  808:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   {
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 72
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 72
 
 
  1746              		.loc 1 808 3 is_stmt 1 view .LVU527
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  1786 0106 07D0     		beq	.L149
  831:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****     MODIFY_REG(RCC->CFGR, RCC_CFGR_PPRE2, ((RCC_ClkInitStruct->APB2CLKDivider) << 3U));
  1787              		.loc 1 831 5 is_stmt 1 view .LVU542
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 73
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 73
 
 
  832:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   }
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  1831 0134 D840     		lsrs	r0, r0, r3
  836:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c **** 
  1832              		.loc 1 836 19 view .LVU556
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 74
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 74
 
 
  1833 0136 0B4B     		ldr	r3, .L163+12
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  1878              	.L156:
  817:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****     }
  1879              		.loc 1 817 14 view .LVU566
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 75
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 75
 
 
  1880 0152 0120     		movs	r0, #1
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  1923              		.syntax unified
  1924              		.thumb
  1925              		.thumb_func
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 76
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 76
 
 
  1926              		.fpu softvfp
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  1967              		.loc 1 1057 78 view .LVU580
  1968 0016 B2FA82F2 		clz	r2, r2
  1969 001a D340     		lsrs	r3, r3, r2
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 77
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 77
 
 
  1970              		.loc 1 1057 49 view .LVU581
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  2014              	.LBI50:
  981:Drivers/CMSIS/Include/cmsis_gcc.h **** {
  2015              		.loc 2 981 31 is_stmt 1 view .LVU588
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 78
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 78
 
 
  2016              	.LBB51:
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  2059              		.loc 1 1080 1 is_stmt 1 view -0
  2060              		.cfi_startproc
  2061              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 79
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 79
 
 
  2062              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
 1105:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****     RCC_OscInitStruct->HSIState = RCC_HSI_OFF;
 1106:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   }
 1107:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c **** 
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 80
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 80
 
 
 1108:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   RCC_OscInitStruct->HSICalibrationValue = (uint32_t)((RCC->CR &RCC_CR_HSITRIM) >> POSITION_VAL(RCC
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
 1118:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   }
 1119:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   else
 1120:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   {
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 81
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 81
 
 
 1121:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****     RCC_OscInitStruct->LSEState = RCC_LSE_OFF;
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  2164 0066 C361     		str	r3, [r0, #28]
 1144:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   RCC_OscInitStruct->PLL.PLLM = (uint32_t)(RCC->PLLCFGR & RCC_PLLCFGR_PLLM);
  2165              		.loc 1 1144 3 is_stmt 1 view .LVU638
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 82
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 82
 
 
  2166              		.loc 1 1144 47 is_stmt 0 view .LVU639
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  2214              	.LBB57:
  983:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  2215              		.loc 2 983 3 view .LVU658
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 83
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 83
 
 
  988:Drivers/CMSIS/Include/cmsis_gcc.h **** #else
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  2264 00b8 7047     		bx	lr
  2265              	.L177:
 1089:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   {
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 84
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 84
 
 
  2266              		.loc 1 1089 8 is_stmt 1 view .LVU675
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  2305              		.loc 1 1121 33 is_stmt 0 view .LVU690
  2306 00e6 0023     		movs	r3, #0
  2307 00e8 8360     		str	r3, [r0, #8]
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 85
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 85
 
 
  2308 00ea AAE7     		b	.L183
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  2347 0002 0360     		str	r3, [r0]
 1162:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c **** 
 1163:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   /* Get the SYSCLK configuration --------------------------------------------*/
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 86
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 86
 
 
 1164:Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.c ****   RCC_ClkInitStruct->SYSCLKSource = (uint32_t)(RCC->CFGR & RCC_CFGR_SW);
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  2388              	.L193:
  2389              		.align	2
  2390              	.L192:
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 87
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 87
 
 
  2391 0034 00380240 		.word	1073887232
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  2419              		.syntax unified
  2420              		.thumb
  2421              		.thumb_func
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 88
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 88
 
 
  2422              		.fpu softvfp
@@ -5278,59 +5278,59 @@ ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 1
  2470              		.file 8 "Drivers/CMSIS/Device/ST/STM32F2xx/Include/stm32f2xx.h"
  2471              		.file 9 "Drivers/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_def.h"
  2472              		.file 10 "Drivers/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_rcc.h"
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 89
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 89
 
 
  2473              		.file 11 "Drivers/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal_gpio.h"
  2474              		.file 12 "Drivers/STM32F2xx_HAL_Driver/Inc/stm32f2xx_hal.h"
-ARM GAS  C:\Users\User\AppData\Local\Temp\ccvLTcA2.s 			page 90
+ARM GAS  C:\Users\User\AppData\Local\Temp\ccsiMcBN.s 			page 90
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32f2xx_hal_rcc.c
-C:\Users\User\AppData\Local\Temp\ccvLTcA2.s:16     .text.HAL_RCC_DeInit:0000000000000000 $t
-C:\Users\User\AppData\Local\Temp\ccvLTcA2.s:24     .text.HAL_RCC_DeInit:0000000000000000 HAL_RCC_DeInit
-C:\Users\User\AppData\Local\Temp\ccvLTcA2.s:251    .text.HAL_RCC_DeInit:0000000000000104 $d
-C:\Users\User\AppData\Local\Temp\ccvLTcA2.s:261    .text.HAL_RCC_OscConfig:0000000000000000 $t
-C:\Users\User\AppData\Local\Temp\ccvLTcA2.s:268    .text.HAL_RCC_OscConfig:0000000000000000 HAL_RCC_OscConfig
-C:\Users\User\AppData\Local\Temp\ccvLTcA2.s:920    .text.HAL_RCC_OscConfig:00000000000002cc $d
-C:\Users\User\AppData\Local\Temp\ccvLTcA2.s:929    .text.HAL_RCC_OscConfig:00000000000002e8 $t
-C:\Users\User\AppData\Local\Temp\ccvLTcA2.s:1171   .text.HAL_RCC_OscConfig:00000000000003c4 $d
-C:\Users\User\AppData\Local\Temp\ccvLTcA2.s:1178   .text.HAL_RCC_MCOConfig:0000000000000000 $t
-C:\Users\User\AppData\Local\Temp\ccvLTcA2.s:1185   .text.HAL_RCC_MCOConfig:0000000000000000 HAL_RCC_MCOConfig
-C:\Users\User\AppData\Local\Temp\ccvLTcA2.s:1338   .text.HAL_RCC_MCOConfig:0000000000000090 $d
-C:\Users\User\AppData\Local\Temp\ccvLTcA2.s:1345   .text.HAL_RCC_EnableCSS:0000000000000000 $t
-C:\Users\User\AppData\Local\Temp\ccvLTcA2.s:1352   .text.HAL_RCC_EnableCSS:0000000000000000 HAL_RCC_EnableCSS
-C:\Users\User\AppData\Local\Temp\ccvLTcA2.s:1369   .text.HAL_RCC_EnableCSS:0000000000000008 $d
-C:\Users\User\AppData\Local\Temp\ccvLTcA2.s:1374   .text.HAL_RCC_DisableCSS:0000000000000000 $t
-C:\Users\User\AppData\Local\Temp\ccvLTcA2.s:1381   .text.HAL_RCC_DisableCSS:0000000000000000 HAL_RCC_DisableCSS
-C:\Users\User\AppData\Local\Temp\ccvLTcA2.s:1398   .text.HAL_RCC_DisableCSS:0000000000000008 $d
-C:\Users\User\AppData\Local\Temp\ccvLTcA2.s:1404   .text.HAL_RCC_GetSysClockFreq:0000000000000000 $t
-C:\Users\User\AppData\Local\Temp\ccvLTcA2.s:1411   .text.HAL_RCC_GetSysClockFreq:0000000000000000 HAL_RCC_GetSysClockFreq
-C:\Users\User\AppData\Local\Temp\ccvLTcA2.s:1560   .text.HAL_RCC_GetSysClockFreq:00000000000000c8 $d
-C:\Users\User\AppData\Local\Temp\ccvLTcA2.s:1567   .text.HAL_RCC_ClockConfig:0000000000000000 $t
-C:\Users\User\AppData\Local\Temp\ccvLTcA2.s:1574   .text.HAL_RCC_ClockConfig:0000000000000000 HAL_RCC_ClockConfig
-C:\Users\User\AppData\Local\Temp\ccvLTcA2.s:1885   .text.HAL_RCC_ClockConfig:0000000000000158 $d
-C:\Users\User\AppData\Local\Temp\ccvLTcA2.s:1894   .text.HAL_RCC_GetHCLKFreq:0000000000000000 $t
-C:\Users\User\AppData\Local\Temp\ccvLTcA2.s:1901   .text.HAL_RCC_GetHCLKFreq:0000000000000000 HAL_RCC_GetHCLKFreq
-C:\Users\User\AppData\Local\Temp\ccvLTcA2.s:1916   .text.HAL_RCC_GetHCLKFreq:0000000000000008 $d
-C:\Users\User\AppData\Local\Temp\ccvLTcA2.s:1921   .text.HAL_RCC_GetPCLK1Freq:0000000000000000 $t
-C:\Users\User\AppData\Local\Temp\ccvLTcA2.s:1928   .text.HAL_RCC_GetPCLK1Freq:0000000000000000 HAL_RCC_GetPCLK1Freq
-C:\Users\User\AppData\Local\Temp\ccvLTcA2.s:1979   .text.HAL_RCC_GetPCLK1Freq:0000000000000024 $d
-C:\Users\User\AppData\Local\Temp\ccvLTcA2.s:1985   .text.HAL_RCC_GetPCLK2Freq:0000000000000000 $t
-C:\Users\User\AppData\Local\Temp\ccvLTcA2.s:1992   .text.HAL_RCC_GetPCLK2Freq:0000000000000000 HAL_RCC_GetPCLK2Freq
-C:\Users\User\AppData\Local\Temp\ccvLTcA2.s:2043   .text.HAL_RCC_GetPCLK2Freq:0000000000000024 $d
-C:\Users\User\AppData\Local\Temp\ccvLTcA2.s:2049   .text.HAL_RCC_GetOscConfig:0000000000000000 $t
-C:\Users\User\AppData\Local\Temp\ccvLTcA2.s:2056   .text.HAL_RCC_GetOscConfig:0000000000000000 HAL_RCC_GetOscConfig
-C:\Users\User\AppData\Local\Temp\ccvLTcA2.s:2324   .text.HAL_RCC_GetOscConfig:00000000000000f8 $d
-C:\Users\User\AppData\Local\Temp\ccvLTcA2.s:2329   .text.HAL_RCC_GetClockConfig:0000000000000000 $t
-C:\Users\User\AppData\Local\Temp\ccvLTcA2.s:2336   .text.HAL_RCC_GetClockConfig:0000000000000000 HAL_RCC_GetClockConfig
-C:\Users\User\AppData\Local\Temp\ccvLTcA2.s:2391   .text.HAL_RCC_GetClockConfig:0000000000000034 $d
-C:\Users\User\AppData\Local\Temp\ccvLTcA2.s:2397   .text.HAL_RCC_CSSCallback:0000000000000000 $t
-C:\Users\User\AppData\Local\Temp\ccvLTcA2.s:2404   .text.HAL_RCC_CSSCallback:0000000000000000 HAL_RCC_CSSCallback
-C:\Users\User\AppData\Local\Temp\ccvLTcA2.s:2417   .text.HAL_RCC_NMI_IRQHandler:0000000000000000 $t
-C:\Users\User\AppData\Local\Temp\ccvLTcA2.s:2424   .text.HAL_RCC_NMI_IRQHandler:0000000000000000 HAL_RCC_NMI_IRQHandler
-C:\Users\User\AppData\Local\Temp\ccvLTcA2.s:2458   .text.HAL_RCC_NMI_IRQHandler:000000000000001c $d
+C:\Users\User\AppData\Local\Temp\ccsiMcBN.s:16     .text.HAL_RCC_DeInit:0000000000000000 $t
+C:\Users\User\AppData\Local\Temp\ccsiMcBN.s:24     .text.HAL_RCC_DeInit:0000000000000000 HAL_RCC_DeInit
+C:\Users\User\AppData\Local\Temp\ccsiMcBN.s:251    .text.HAL_RCC_DeInit:0000000000000104 $d
+C:\Users\User\AppData\Local\Temp\ccsiMcBN.s:261    .text.HAL_RCC_OscConfig:0000000000000000 $t
+C:\Users\User\AppData\Local\Temp\ccsiMcBN.s:268    .text.HAL_RCC_OscConfig:0000000000000000 HAL_RCC_OscConfig
+C:\Users\User\AppData\Local\Temp\ccsiMcBN.s:920    .text.HAL_RCC_OscConfig:00000000000002cc $d
+C:\Users\User\AppData\Local\Temp\ccsiMcBN.s:929    .text.HAL_RCC_OscConfig:00000000000002e8 $t
+C:\Users\User\AppData\Local\Temp\ccsiMcBN.s:1171   .text.HAL_RCC_OscConfig:00000000000003c4 $d
+C:\Users\User\AppData\Local\Temp\ccsiMcBN.s:1178   .text.HAL_RCC_MCOConfig:0000000000000000 $t
+C:\Users\User\AppData\Local\Temp\ccsiMcBN.s:1185   .text.HAL_RCC_MCOConfig:0000000000000000 HAL_RCC_MCOConfig
+C:\Users\User\AppData\Local\Temp\ccsiMcBN.s:1338   .text.HAL_RCC_MCOConfig:0000000000000090 $d
+C:\Users\User\AppData\Local\Temp\ccsiMcBN.s:1345   .text.HAL_RCC_EnableCSS:0000000000000000 $t
+C:\Users\User\AppData\Local\Temp\ccsiMcBN.s:1352   .text.HAL_RCC_EnableCSS:0000000000000000 HAL_RCC_EnableCSS
+C:\Users\User\AppData\Local\Temp\ccsiMcBN.s:1369   .text.HAL_RCC_EnableCSS:0000000000000008 $d
+C:\Users\User\AppData\Local\Temp\ccsiMcBN.s:1374   .text.HAL_RCC_DisableCSS:0000000000000000 $t
+C:\Users\User\AppData\Local\Temp\ccsiMcBN.s:1381   .text.HAL_RCC_DisableCSS:0000000000000000 HAL_RCC_DisableCSS
+C:\Users\User\AppData\Local\Temp\ccsiMcBN.s:1398   .text.HAL_RCC_DisableCSS:0000000000000008 $d
+C:\Users\User\AppData\Local\Temp\ccsiMcBN.s:1404   .text.HAL_RCC_GetSysClockFreq:0000000000000000 $t
+C:\Users\User\AppData\Local\Temp\ccsiMcBN.s:1411   .text.HAL_RCC_GetSysClockFreq:0000000000000000 HAL_RCC_GetSysClockFreq
+C:\Users\User\AppData\Local\Temp\ccsiMcBN.s:1560   .text.HAL_RCC_GetSysClockFreq:00000000000000c8 $d
+C:\Users\User\AppData\Local\Temp\ccsiMcBN.s:1567   .text.HAL_RCC_ClockConfig:0000000000000000 $t
+C:\Users\User\AppData\Local\Temp\ccsiMcBN.s:1574   .text.HAL_RCC_ClockConfig:0000000000000000 HAL_RCC_ClockConfig
+C:\Users\User\AppData\Local\Temp\ccsiMcBN.s:1885   .text.HAL_RCC_ClockConfig:0000000000000158 $d
+C:\Users\User\AppData\Local\Temp\ccsiMcBN.s:1894   .text.HAL_RCC_GetHCLKFreq:0000000000000000 $t
+C:\Users\User\AppData\Local\Temp\ccsiMcBN.s:1901   .text.HAL_RCC_GetHCLKFreq:0000000000000000 HAL_RCC_GetHCLKFreq
+C:\Users\User\AppData\Local\Temp\ccsiMcBN.s:1916   .text.HAL_RCC_GetHCLKFreq:0000000000000008 $d
+C:\Users\User\AppData\Local\Temp\ccsiMcBN.s:1921   .text.HAL_RCC_GetPCLK1Freq:0000000000000000 $t
+C:\Users\User\AppData\Local\Temp\ccsiMcBN.s:1928   .text.HAL_RCC_GetPCLK1Freq:0000000000000000 HAL_RCC_GetPCLK1Freq
+C:\Users\User\AppData\Local\Temp\ccsiMcBN.s:1979   .text.HAL_RCC_GetPCLK1Freq:0000000000000024 $d
+C:\Users\User\AppData\Local\Temp\ccsiMcBN.s:1985   .text.HAL_RCC_GetPCLK2Freq:0000000000000000 $t
+C:\Users\User\AppData\Local\Temp\ccsiMcBN.s:1992   .text.HAL_RCC_GetPCLK2Freq:0000000000000000 HAL_RCC_GetPCLK2Freq
+C:\Users\User\AppData\Local\Temp\ccsiMcBN.s:2043   .text.HAL_RCC_GetPCLK2Freq:0000000000000024 $d
+C:\Users\User\AppData\Local\Temp\ccsiMcBN.s:2049   .text.HAL_RCC_GetOscConfig:0000000000000000 $t
+C:\Users\User\AppData\Local\Temp\ccsiMcBN.s:2056   .text.HAL_RCC_GetOscConfig:0000000000000000 HAL_RCC_GetOscConfig
+C:\Users\User\AppData\Local\Temp\ccsiMcBN.s:2324   .text.HAL_RCC_GetOscConfig:00000000000000f8 $d
+C:\Users\User\AppData\Local\Temp\ccsiMcBN.s:2329   .text.HAL_RCC_GetClockConfig:0000000000000000 $t
+C:\Users\User\AppData\Local\Temp\ccsiMcBN.s:2336   .text.HAL_RCC_GetClockConfig:0000000000000000 HAL_RCC_GetClockConfig
+C:\Users\User\AppData\Local\Temp\ccsiMcBN.s:2391   .text.HAL_RCC_GetClockConfig:0000000000000034 $d
+C:\Users\User\AppData\Local\Temp\ccsiMcBN.s:2397   .text.HAL_RCC_CSSCallback:0000000000000000 $t
+C:\Users\User\AppData\Local\Temp\ccsiMcBN.s:2404   .text.HAL_RCC_CSSCallback:0000000000000000 HAL_RCC_CSSCallback
+C:\Users\User\AppData\Local\Temp\ccsiMcBN.s:2417   .text.HAL_RCC_NMI_IRQHandler:0000000000000000 $t
+C:\Users\User\AppData\Local\Temp\ccsiMcBN.s:2424   .text.HAL_RCC_NMI_IRQHandler:0000000000000000 HAL_RCC_NMI_IRQHandler
+C:\Users\User\AppData\Local\Temp\ccsiMcBN.s:2458   .text.HAL_RCC_NMI_IRQHandler:000000000000001c $d
 
 UNDEFINED SYMBOLS
 HAL_GetTick

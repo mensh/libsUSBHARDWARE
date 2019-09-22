@@ -2,11 +2,17 @@
     "env": {
         "____________________USER_FIELDS_CAN_BE_MODIFIED____________________": "",
         "user_cSources": [
-            "Src/usbCore.c"
+            "Src/usbCore.c",
+            "nanopb/pb_common.c",
+            "nanopb/pb_decode.c",
+            "nanopb/pb_encode.c",
+            "nanopb/simple.pb.c"
         ],
         "user_asmSources": [],
         "user_ldSources": [],
-        "user_cIncludes": [],
+        "user_cIncludes": [
+            "nanopb"
+        ],
         "user_asmIncludes": [],
         "user_ldIncludes": [],
         "user_cDefines": [],

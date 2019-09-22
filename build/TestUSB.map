@@ -9,23 +9,77 @@ c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-no
 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-malloc.o)
                               build/usbd_cdc.o (malloc)
 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memcpy-stub.o)
-                              build/queue.o (memcpy)
+                              build/pb_decode.o (memcpy)
 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memset.o)
                               c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o (memset)
 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-freer.o)
                               c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-malloc.o) (_free_r)
 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-mallocr.o)
                               c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-malloc.o) (_malloc_r)
+c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-printf.o)
+                              build/usbCore.o (printf)
 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sbrkr.o)
                               c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-mallocr.o) (_sbrk_r)
+c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
+                              c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-printf.o) (__sinit)
+c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fwalk.o)
+                              c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o) (_fwalk)
+c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+                              c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o) (__retarget_lock_init_recursive)
 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-mlock.o)
                               c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-freer.o) (__malloc_lock)
+c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf.o)
+                              c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-printf.o) (_vfprintf_r)
+c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                              c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf.o) (_printf_i)
 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-reent.o)
                               c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sbrkr.o) (errno)
-c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
-                              c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-mlock.o) (__retarget_lock_acquire_recursive)
+c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-stdio.o)
+                              c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o) (__sread)
+c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-wbuf.o)
+                              c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf.o) (__swbuf_r)
+c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-writer.o)
+                              c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-stdio.o) (_write_r)
+c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-wsetup.o)
+                              c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf.o) (__swsetup_r)
+c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-closer.o)
+                              c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-stdio.o) (_close_r)
+c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fflush.o)
+                              c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o) (_fflush_r)
+c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fvwrite.o)
+                              c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf.o) (__sfvwrite_r)
+c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lseekr.o)
+                              c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-stdio.o) (_lseek_r)
+c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-makebuf.o)
+                              c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-wsetup.o) (__smakebuf_r)
+c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memchr-stub.o)
+                              c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf.o) (memchr)
+c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memmove.o)
+                              c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fvwrite.o) (memmove)
+c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-reallocr.o)
+                              c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fvwrite.o) (_realloc_r)
+c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-readr.o)
+                              c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-stdio.o) (_read_r)
+c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fstatr.o)
+                              c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-makebuf.o) (_fstat_r)
+c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-isattyr.o)
+                              c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-makebuf.o) (_isatty_r)
+c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-msizer.o)
+                              c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-reallocr.o) (_malloc_usable_size_r)
+c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(close.o)
+                              c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-closer.o) (_close)
+c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(fstat.o)
+                              c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fstatr.o) (_fstat)
+c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(isatty.o)
+                              c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-isattyr.o) (_isatty)
+c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(lseek.o)
+                              c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lseekr.o) (_lseek)
+c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(read.o)
+                              c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-readr.o) (_read)
 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(sbrk.o)
                               c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sbrkr.o) (_sbrk)
+c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(write.o)
+                              c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-writer.o) (_write)
 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(_exit.o)
                               c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-exit.o) (_exit)
 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libgcc.a(_aeabi_uldivmod.o)
@@ -99,20 +153,278 @@ Discarded input sections
  .data          0x0000000000000000        0x0 build/usbCore.o
  .bss           0x0000000000000000        0x0 build/usbCore.o
  .text.InitMAPFunc
-                0x0000000000000000        0x4 build/usbCore.o
+                0x0000000000000000       0x54 build/usbCore.o
  .text.MyInfo   0x0000000000000000       0x1e build/usbCore.o
- .debug_info    0x0000000000000000     0x2007 build/usbCore.o
- .debug_abbrev  0x0000000000000000      0x268 build/usbCore.o
- .debug_loc     0x0000000000000000       0x39 build/usbCore.o
+ .rodata.InitMAPFunc.str1.4
+                0x0000000000000000       0x1d build/usbCore.o
+ .debug_info    0x0000000000000000     0x22c7 build/usbCore.o
+ .debug_abbrev  0x0000000000000000      0x261 build/usbCore.o
+ .debug_loc     0x0000000000000000       0xf0 build/usbCore.o
  .debug_aranges
                 0x0000000000000000       0x28 build/usbCore.o
  .debug_ranges  0x0000000000000000       0x18 build/usbCore.o
- .debug_line    0x0000000000000000      0x498 build/usbCore.o
- .debug_str     0x0000000000000000     0x143e build/usbCore.o
+ .debug_line    0x0000000000000000      0x55e build/usbCore.o
+ .debug_str     0x0000000000000000     0x15c9 build/usbCore.o
  .comment       0x0000000000000000       0x69 build/usbCore.o
- .debug_frame   0x0000000000000000       0x40 build/usbCore.o
+ .debug_frame   0x0000000000000000       0x54 build/usbCore.o
  .ARM.attributes
                 0x0000000000000000       0x2d build/usbCore.o
+ .text          0x0000000000000000        0x0 build/pb_common.o
+ .data          0x0000000000000000        0x0 build/pb_common.o
+ .bss           0x0000000000000000        0x0 build/pb_common.o
+ .text.pb_field_iter_begin
+                0x0000000000000000       0x22 build/pb_common.o
+ .text.pb_field_iter_next
+                0x0000000000000000       0x7e build/pb_common.o
+ .text.pb_field_iter_find
+                0x0000000000000000       0x30 build/pb_common.o
+ .debug_info    0x0000000000000000      0xcbb build/pb_common.o
+ .debug_abbrev  0x0000000000000000      0x22e build/pb_common.o
+ .debug_loc     0x0000000000000000      0x235 build/pb_common.o
+ .debug_aranges
+                0x0000000000000000       0x30 build/pb_common.o
+ .debug_ranges  0x0000000000000000       0x40 build/pb_common.o
+ .debug_line    0x0000000000000000      0x392 build/pb_common.o
+ .debug_str     0x0000000000000000      0x6c7 build/pb_common.o
+ .comment       0x0000000000000000       0x69 build/pb_common.o
+ .debug_frame   0x0000000000000000       0x7c build/pb_common.o
+ .ARM.attributes
+                0x0000000000000000       0x2d build/pb_common.o
+ .text          0x0000000000000000        0x0 build/pb_decode.o
+ .data          0x0000000000000000        0x0 build/pb_decode.o
+ .bss           0x0000000000000000        0x0 build/pb_decode.o
+ .text.buf_read
+                0x0000000000000000       0x20 build/pb_decode.o
+ .text.pb_readbyte
+                0x0000000000000000       0x40 build/pb_decode.o
+ .text.pb_decode_varint32_eof
+                0x0000000000000000       0xbc build/pb_decode.o
+ .text.decode_pointer_field
+                0x0000000000000000       0x14 build/pb_decode.o
+ .text.iter_from_extension
+                0x0000000000000000       0x2e build/pb_decode.o
+ .text.find_extension_field
+                0x0000000000000000       0x26 build/pb_decode.o
+ .text.pb_field_set_to_default
+                0x0000000000000000       0xae build/pb_decode.o
+ .text.pb_message_set_to_defaults
+                0x0000000000000000       0x26 build/pb_decode.o
+ .text.pb_read  0x0000000000000000       0x80 build/pb_decode.o
+ .text.pb_skip_varint
+                0x0000000000000000       0x24 build/pb_decode.o
+ .text.read_raw_value
+                0x0000000000000000       0x78 build/pb_decode.o
+ .text.pb_istream_from_buffer
+                0x0000000000000000       0x18 build/pb_decode.o
+ .text.pb_decode_varint32
+                0x0000000000000000        0xa build/pb_decode.o
+ .text.pb_skip_string
+                0x0000000000000000       0x24 build/pb_decode.o
+ .text.pb_dec_fixed_length_bytes
+                0x0000000000000000       0x64 build/pb_decode.o
+ .text.pb_dec_string
+                0x0000000000000000       0x78 build/pb_decode.o
+ .text.pb_dec_bytes
+                0x0000000000000000       0x88 build/pb_decode.o
+ .text.pb_decode_varint
+                0x0000000000000000       0x74 build/pb_decode.o
+ .text.pb_dec_uvarint
+                0x0000000000000000       0x84 build/pb_decode.o
+ .text.pb_dec_varint
+                0x0000000000000000       0x88 build/pb_decode.o
+ .text.pb_decode_tag
+                0x0000000000000000       0x3e build/pb_decode.o
+ .text.pb_skip_field
+                0x0000000000000000       0x44 build/pb_decode.o
+ .text.pb_make_string_substream
+                0x0000000000000000       0x40 build/pb_decode.o
+ .text.pb_close_string_substream
+                0x0000000000000000       0x28 build/pb_decode.o
+ .text.decode_static_field
+                0x0000000000000000      0x13c build/pb_decode.o
+ .text.decode_callback_field
+                0x0000000000000000       0x98 build/pb_decode.o
+ .text.decode_field
+                0x0000000000000000       0x38 build/pb_decode.o
+ .text.default_extension_decoder
+                0x0000000000000000       0x30 build/pb_decode.o
+ .text.decode_extension
+                0x0000000000000000       0x48 build/pb_decode.o
+ .text.pb_decode_noinit
+                0x0000000000000000      0x158 build/pb_decode.o
+ .text.pb_decode
+                0x0000000000000000       0x1c build/pb_decode.o
+ .text.pb_dec_submessage
+                0x0000000000000000       0x68 build/pb_decode.o
+ .text.pb_decode_delimited_noinit
+                0x0000000000000000       0x38 build/pb_decode.o
+ .text.pb_decode_delimited
+                0x0000000000000000       0x38 build/pb_decode.o
+ .text.pb_decode_nullterminated
+                0x0000000000000000        0x8 build/pb_decode.o
+ .text.pb_decode_svarint
+                0x0000000000000000       0x42 build/pb_decode.o
+ .text.pb_dec_svarint
+                0x0000000000000000       0x84 build/pb_decode.o
+ .text.pb_decode_fixed32
+                0x0000000000000000       0x38 build/pb_decode.o
+ .text.pb_dec_fixed32
+                0x0000000000000000        0xa build/pb_decode.o
+ .text.pb_decode_fixed64
+                0x0000000000000000       0x54 build/pb_decode.o
+ .text.pb_dec_fixed64
+                0x0000000000000000        0xa build/pb_decode.o
+ .rodata.PB_DECODERS
+                0x0000000000000000       0x28 build/pb_decode.o
+ .rodata.decode_callback_field.str1.4
+                0x0000000000000000       0x10 build/pb_decode.o
+ .rodata.decode_pointer_field.str1.4
+                0x0000000000000000       0x12 build/pb_decode.o
+ .rodata.decode_static_field.str1.4
+                0x0000000000000000       0x23 build/pb_decode.o
+ .rodata.pb_dec_fixed_length_bytes.str1.4
+                0x0000000000000000       0x32 build/pb_decode.o
+ .rodata.pb_dec_string.str1.4
+                0x0000000000000000       0x20 build/pb_decode.o
+ .rodata.pb_dec_submessage.str1.4
+                0x0000000000000000       0x19 build/pb_decode.o
+ .rodata.pb_dec_uvarint.str1.4
+                0x0000000000000000       0x26 build/pb_decode.o
+ .rodata.pb_decode_noinit.str1.4
+                0x0000000000000000       0x17 build/pb_decode.o
+ .rodata.pb_decode_varint32_eof.str1.4
+                0x0000000000000000       0x10 build/pb_decode.o
+ .rodata.pb_make_string_substream.str1.4
+                0x0000000000000000       0x18 build/pb_decode.o
+ .rodata.pb_readbyte.str1.4
+                0x0000000000000000       0x19 build/pb_decode.o
+ .rodata.read_raw_value.str1.4
+                0x0000000000000000       0x12 build/pb_decode.o
+ .debug_info    0x0000000000000000     0x2c8a build/pb_decode.o
+ .debug_abbrev  0x0000000000000000      0x42e build/pb_decode.o
+ .debug_loc     0x0000000000000000     0x2643 build/pb_decode.o
+ .debug_aranges
+                0x0000000000000000      0x160 build/pb_decode.o
+ .debug_ranges  0x0000000000000000      0x1f0 build/pb_decode.o
+ .debug_line    0x0000000000000000     0x1532 build/pb_decode.o
+ .debug_str     0x0000000000000000      0xcf8 build/pb_decode.o
+ .comment       0x0000000000000000       0x69 build/pb_decode.o
+ .debug_frame   0x0000000000000000      0x620 build/pb_decode.o
+ .ARM.attributes
+                0x0000000000000000       0x2d build/pb_decode.o
+ .text          0x0000000000000000        0x0 build/pb_encode.o
+ .data          0x0000000000000000        0x0 build/pb_encode.o
+ .bss           0x0000000000000000        0x0 build/pb_encode.o
+ .text.buf_write
+                0x0000000000000000       0x1c build/pb_encode.o
+ .text.encode_callback_field
+                0x0000000000000000       0x2c build/pb_encode.o
+ .text.pb_const_cast
+                0x0000000000000000        0x2 build/pb_encode.o
+ .text.pb_check_proto3_default_value
+                0x0000000000000000       0xca build/pb_encode.o
+ .text.pb_ostream_from_buffer
+                0x0000000000000000       0x18 build/pb_encode.o
+ .text.pb_write
+                0x0000000000000000       0x4c build/pb_encode.o
+ .text.pb_encode_varint
+                0x0000000000000000       0x5e build/pb_encode.o
+ .text.pb_enc_uvarint
+                0x0000000000000000       0x40 build/pb_encode.o
+ .text.pb_enc_varint
+                0x0000000000000000       0x44 build/pb_encode.o
+ .text.pb_encode_svarint
+                0x0000000000000000       0x28 build/pb_encode.o
+ .text.pb_enc_svarint
+                0x0000000000000000       0x44 build/pb_encode.o
+ .text.pb_encode_fixed32
+                0x0000000000000000       0x30 build/pb_encode.o
+ .text.pb_enc_fixed32
+                0x0000000000000000        0xa build/pb_encode.o
+ .text.pb_encode_fixed64
+                0x0000000000000000       0x4a build/pb_encode.o
+ .text.pb_enc_fixed64
+                0x0000000000000000        0xa build/pb_encode.o
+ .text.pb_encode_tag
+                0x0000000000000000       0x10 build/pb_encode.o
+ .text.pb_encode_tag_for_field
+                0x0000000000000000       0x44 build/pb_encode.o
+ .text.encode_array
+                0x0000000000000000      0x134 build/pb_encode.o
+ .text.encode_basic_field
+                0x0000000000000000      0x114 build/pb_encode.o
+ .text.encode_field
+                0x0000000000000000       0x30 build/pb_encode.o
+ .text.default_extension_encoder
+                0x0000000000000000       0x22 build/pb_encode.o
+ .text.encode_extension_field
+                0x0000000000000000       0x2a build/pb_encode.o
+ .text.pb_encode
+                0x0000000000000000       0x58 build/pb_encode.o
+ .text.pb_encode_nullterminated
+                0x0000000000000000       0x2a build/pb_encode.o
+ .text.pb_get_encoded_size
+                0x0000000000000000       0x26 build/pb_encode.o
+ .text.pb_encode_string
+                0x0000000000000000       0x24 build/pb_encode.o
+ .text.pb_enc_fixed_length_bytes
+                0x0000000000000000        0xe build/pb_encode.o
+ .text.pb_enc_string
+                0x0000000000000000       0x38 build/pb_encode.o
+ .text.pb_enc_bytes
+                0x0000000000000000       0x40 build/pb_encode.o
+ .text.pb_encode_submessage
+                0x0000000000000000       0xa8 build/pb_encode.o
+ .text.pb_enc_submessage
+                0x0000000000000000       0x20 build/pb_encode.o
+ .text.pb_encode_delimited
+                0x0000000000000000        0x8 build/pb_encode.o
+ .rodata.PB_ENCODERS
+                0x0000000000000000       0x28 build/pb_encode.o
+ .rodata.encode_array.str1.4
+                0x0000000000000000       0x18 build/pb_encode.o
+ .rodata.encode_basic_field.str1.4
+                0x0000000000000000       0x17 build/pb_encode.o
+ .rodata.encode_callback_field.str1.4
+                0x0000000000000000        0xf build/pb_encode.o
+ .rodata.pb_enc_bytes.str1.4
+                0x0000000000000000       0x14 build/pb_encode.o
+ .rodata.pb_enc_submessage.str1.4
+                0x0000000000000000       0x19 build/pb_encode.o
+ .rodata.pb_enc_uvarint.str1.4
+                0x0000000000000000       0x12 build/pb_encode.o
+ .rodata.pb_encode_submessage.str1.4
+                0x0000000000000000       0x14 build/pb_encode.o
+ .rodata.pb_encode_tag_for_field.str1.4
+                0x0000000000000000       0x13 build/pb_encode.o
+ .rodata.pb_write.str1.4
+                0x0000000000000000       0x15 build/pb_encode.o
+ .debug_info    0x0000000000000000     0x23c2 build/pb_encode.o
+ .debug_abbrev  0x0000000000000000      0x3e6 build/pb_encode.o
+ .debug_loc     0x0000000000000000     0x1fd4 build/pb_encode.o
+ .debug_aranges
+                0x0000000000000000      0x118 build/pb_encode.o
+ .debug_ranges  0x0000000000000000      0x150 build/pb_encode.o
+ .debug_line    0x0000000000000000      0xf68 build/pb_encode.o
+ .debug_str     0x0000000000000000      0xb56 build/pb_encode.o
+ .comment       0x0000000000000000       0x69 build/pb_encode.o
+ .debug_frame   0x0000000000000000      0x404 build/pb_encode.o
+ .ARM.attributes
+                0x0000000000000000       0x2d build/pb_encode.o
+ .text          0x0000000000000000        0x0 build/simple.pb.o
+ .data          0x0000000000000000        0x0 build/simple.pb.o
+ .bss           0x0000000000000000        0x0 build/simple.pb.o
+ .rodata.SimpleMessage_fields
+                0x0000000000000000       0x14 build/simple.pb.o
+ .debug_info    0x0000000000000000      0xb49 build/simple.pb.o
+ .debug_abbrev  0x0000000000000000      0x1a3 build/simple.pb.o
+ .debug_aranges
+                0x0000000000000000       0x18 build/simple.pb.o
+ .debug_line    0x0000000000000000      0x202 build/simple.pb.o
+ .debug_str     0x0000000000000000      0x64f build/simple.pb.o
+ .comment       0x0000000000000000       0x69 build/simple.pb.o
+ .ARM.attributes
+                0x0000000000000000       0x33 build/simple.pb.o
  .text          0x0000000000000000        0x0 build/main.o
  .data          0x0000000000000000        0x0 build/main.o
  .bss           0x0000000000000000        0x0 build/main.o
@@ -1776,19 +2088,55 @@ Discarded input sections
  .text          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-mallocr.o)
  .data          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-mallocr.o)
  .bss           0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-mallocr.o)
+ .text          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-printf.o)
+ .data          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-printf.o)
+ .bss           0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-printf.o)
+ .text._printf_r
+                0x0000000000000000       0x28 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-printf.o)
+ .text.printf   0x0000000000000000       0x30 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-printf.o)
+ .debug_frame   0x0000000000000000       0x74 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-printf.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-printf.o)
  .text          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sbrkr.o)
  .data          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sbrkr.o)
  .bss           0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sbrkr.o)
- .text          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-mlock.o)
- .data          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-mlock.o)
- .bss           0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-mlock.o)
- .text          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-reent.o)
- .data          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-reent.o)
- .bss           0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-reent.o)
- .text.cleanup_glue
-                0x0000000000000000       0x1a c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-reent.o)
- .text._reclaim_reent
-                0x0000000000000000       0xb8 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-reent.o)
+ .text          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
+ .data          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
+ .bss           0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
+ .text.std      0x0000000000000000       0x48 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
+ .text._cleanup_r
+                0x0000000000000000        0xc c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
+ .text.__fp_lock
+                0x0000000000000000       0x18 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
+ .text.__fp_unlock
+                0x0000000000000000       0x18 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
+ .text.__sfmoreglue
+                0x0000000000000000       0x2c c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
+ .text._cleanup
+                0x0000000000000000        0xc c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
+ .text.__sfp_lock_acquire
+                0x0000000000000000        0xc c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
+ .text.__sfp_lock_release
+                0x0000000000000000        0xc c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
+ .text.__sinit_lock_acquire
+                0x0000000000000000        0xc c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
+ .text.__sinit_lock_release
+                0x0000000000000000        0xc c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
+ .text.__sinit  0x0000000000000000       0x70 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
+ .text.__sfp    0x0000000000000000       0x8c c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
+ .text.__fp_lock_all
+                0x0000000000000000       0x1c c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
+ .text.__fp_unlock_all
+                0x0000000000000000       0x1c c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
+ .text          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fwalk.o)
+ .data          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fwalk.o)
+ .bss           0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fwalk.o)
+ .text._fwalk   0x0000000000000000       0x38 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fwalk.o)
+ .text._fwalk_reent
+                0x0000000000000000       0x3c c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fwalk.o)
+ .debug_frame   0x0000000000000000       0x54 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fwalk.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fwalk.o)
  .text          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
  .data          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
  .bss           0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
@@ -1808,9 +2156,239 @@ Discarded input sections
                 0x0000000000000000        0x4 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
  .text.__retarget_lock_release
                 0x0000000000000000        0x2 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+ .text          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-mlock.o)
+ .data          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-mlock.o)
+ .bss           0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-mlock.o)
+ .text          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf.o)
+ .data          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf.o)
+ .bss           0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf.o)
+ .text.__sfputc_r
+                0x0000000000000000       0x2a c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf.o)
+ .text.__sfputs_r
+                0x0000000000000000       0x24 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf.o)
+ .text.__sprint_r
+                0x0000000000000000       0x1a c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf.o)
+ .text._vfprintf_r
+                0x0000000000000000      0x250 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf.o)
+ .text.vfprintf
+                0x0000000000000000       0x14 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf.o)
+ .rodata._vfprintf_r.str1.1
+                0x0000000000000000       0x11 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf.o)
+ .debug_frame   0x0000000000000000       0xac c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf.o)
+ .text          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .data          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .bss           0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .text._printf_common
+                0x0000000000000000       0xec c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .text._printf_i
+                0x0000000000000000      0x22c c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .rodata._printf_i.str1.1
+                0x0000000000000000       0x22 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .debug_frame   0x0000000000000000       0x60 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .text          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-reent.o)
+ .data          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-reent.o)
+ .bss           0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-reent.o)
+ .text.cleanup_glue
+                0x0000000000000000       0x1a c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-reent.o)
+ .text._reclaim_reent
+                0x0000000000000000       0xb8 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-reent.o)
+ .text          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-stdio.o)
+ .data          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-stdio.o)
+ .bss           0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-stdio.o)
+ .text.__sread  0x0000000000000000       0x22 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-stdio.o)
+ .text.__seofread
+                0x0000000000000000        0x4 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-stdio.o)
+ .text.__swrite
+                0x0000000000000000       0x38 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-stdio.o)
+ .text.__sseek  0x0000000000000000       0x24 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-stdio.o)
+ .text.__sclose
+                0x0000000000000000        0x8 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-stdio.o)
+ .debug_frame   0x0000000000000000       0x88 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-stdio.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-stdio.o)
+ .text          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-wbuf.o)
+ .data          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-wbuf.o)
+ .bss           0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-wbuf.o)
+ .text.__swbuf_r
+                0x0000000000000000       0xa4 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-wbuf.o)
+ .text.__swbuf  0x0000000000000000       0x10 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-wbuf.o)
+ .debug_frame   0x0000000000000000       0x40 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-wbuf.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-wbuf.o)
+ .text          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-writer.o)
+ .data          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-writer.o)
+ .bss           0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-writer.o)
+ .text._write_r
+                0x0000000000000000       0x24 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-writer.o)
+ .debug_frame   0x0000000000000000       0x2c c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-writer.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-writer.o)
+ .text          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-wsetup.o)
+ .data          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-wsetup.o)
+ .bss           0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-wsetup.o)
+ .text.__swsetup_r
+                0x0000000000000000       0xdc c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-wsetup.o)
+ .debug_frame   0x0000000000000000       0x2c c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-wsetup.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-wsetup.o)
+ .text          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-closer.o)
+ .data          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-closer.o)
+ .bss           0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-closer.o)
+ .text._close_r
+                0x0000000000000000       0x20 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-closer.o)
+ .debug_frame   0x0000000000000000       0x2c c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-closer.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-closer.o)
+ .text          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fflush.o)
+ .data          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fflush.o)
+ .bss           0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fflush.o)
+ .text.__sflush_r
+                0x0000000000000000      0x10c c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fflush.o)
+ .text._fflush_r
+                0x0000000000000000       0x78 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fflush.o)
+ .text.fflush   0x0000000000000000       0x24 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fflush.o)
+ .debug_frame   0x0000000000000000       0x5c c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fflush.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fflush.o)
+ .text          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fvwrite.o)
+ .data          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fvwrite.o)
+ .bss           0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fvwrite.o)
+ .text.__sfvwrite_r
+                0x0000000000000000      0x2a0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fvwrite.o)
+ .debug_frame   0x0000000000000000       0x3c c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fvwrite.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fvwrite.o)
+ .text          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lseekr.o)
+ .data          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lseekr.o)
+ .bss           0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lseekr.o)
+ .text._lseek_r
+                0x0000000000000000       0x24 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lseekr.o)
+ .debug_frame   0x0000000000000000       0x2c c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lseekr.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lseekr.o)
+ .text          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-makebuf.o)
+ .data          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-makebuf.o)
+ .bss           0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-makebuf.o)
+ .text.__swhatbuf_r
+                0x0000000000000000       0x48 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-makebuf.o)
+ .text.__smakebuf_r
+                0x0000000000000000       0x80 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-makebuf.o)
+ .debug_frame   0x0000000000000000       0x58 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-makebuf.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-makebuf.o)
+ .text          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memchr-stub.o)
+ .data          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memchr-stub.o)
+ .bss           0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memchr-stub.o)
+ .text.memchr   0x0000000000000000       0x1c c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memchr-stub.o)
+ .debug_frame   0x0000000000000000       0x28 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memchr-stub.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memchr-stub.o)
+ .text          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memmove.o)
+ .data          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memmove.o)
+ .bss           0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memmove.o)
+ .text.memmove  0x0000000000000000       0x34 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memmove.o)
+ .debug_frame   0x0000000000000000       0x28 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memmove.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memmove.o)
+ .text          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-reallocr.o)
+ .data          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-reallocr.o)
+ .bss           0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-reallocr.o)
+ .text._realloc_r
+                0x0000000000000000       0x4c c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-reallocr.o)
+ .debug_frame   0x0000000000000000       0x3c c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-reallocr.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-reallocr.o)
+ .text          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-readr.o)
+ .data          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-readr.o)
+ .bss           0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-readr.o)
+ .text._read_r  0x0000000000000000       0x24 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-readr.o)
+ .debug_frame   0x0000000000000000       0x2c c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-readr.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-readr.o)
+ .text          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fstatr.o)
+ .data          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fstatr.o)
+ .bss           0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fstatr.o)
+ .text._fstat_r
+                0x0000000000000000       0x24 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fstatr.o)
+ .debug_frame   0x0000000000000000       0x2c c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fstatr.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fstatr.o)
+ .text          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-isattyr.o)
+ .data          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-isattyr.o)
+ .bss           0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-isattyr.o)
+ .text._isatty_r
+                0x0000000000000000       0x20 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-isattyr.o)
+ .debug_frame   0x0000000000000000       0x2c c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-isattyr.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-isattyr.o)
+ .text          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-msizer.o)
+ .data          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-msizer.o)
+ .bss           0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-msizer.o)
+ .text._malloc_usable_size_r
+                0x0000000000000000       0x10 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-msizer.o)
+ .debug_frame   0x0000000000000000       0x20 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-msizer.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-msizer.o)
+ .text          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(close.o)
+ .data          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(close.o)
+ .bss           0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(close.o)
+ .stab          0x0000000000000000       0x24 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(close.o)
+ .text._close   0x0000000000000000       0x10 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(close.o)
+ .debug_frame   0x0000000000000000       0x20 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(close.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(close.o)
+ .text          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(fstat.o)
+ .data          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(fstat.o)
+ .bss           0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(fstat.o)
+ .stab          0x0000000000000000       0x18 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(fstat.o)
+                                         0x24 (size before relaxing)
+ .text._fstat   0x0000000000000000       0x10 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(fstat.o)
+ .debug_frame   0x0000000000000000       0x20 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(fstat.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(fstat.o)
+ .text          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(isatty.o)
+ .data          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(isatty.o)
+ .bss           0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(isatty.o)
+ .stab          0x0000000000000000       0x18 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(isatty.o)
+                                         0x24 (size before relaxing)
+ .text._isatty  0x0000000000000000       0x10 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(isatty.o)
+ .debug_frame   0x0000000000000000       0x20 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(isatty.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(isatty.o)
+ .text          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(lseek.o)
+ .data          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(lseek.o)
+ .bss           0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(lseek.o)
+ .stab          0x0000000000000000       0x18 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(lseek.o)
+                                         0x24 (size before relaxing)
+ .text._lseek   0x0000000000000000       0x10 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(lseek.o)
+ .debug_frame   0x0000000000000000       0x20 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(lseek.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(lseek.o)
+ .text          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(read.o)
+ .data          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(read.o)
+ .bss           0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(read.o)
+ .stab          0x0000000000000000       0x18 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(read.o)
+                                         0x24 (size before relaxing)
+ .text._read    0x0000000000000000       0x10 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(read.o)
+ .debug_frame   0x0000000000000000       0x20 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(read.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(read.o)
  .text          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(sbrk.o)
  .data          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(sbrk.o)
  .bss           0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(sbrk.o)
+ .text          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(write.o)
+ .data          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(write.o)
+ .bss           0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(write.o)
+ .stab          0x0000000000000000       0x18 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(write.o)
+                                         0x24 (size before relaxing)
+ .text._write   0x0000000000000000       0x10 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(write.o)
+ .debug_frame   0x0000000000000000       0x20 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(write.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(write.o)
  .text          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(_exit.o)
  .data          0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(_exit.o)
  .bss           0x0000000000000000        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(_exit.o)
@@ -1848,6 +2426,10 @@ LOAD c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/a
 LOAD c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp/crtbegin.o
 LOAD c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
 LOAD build/usbCore.o
+LOAD build/pb_common.o
+LOAD build/pb_decode.o
+LOAD build/pb_encode.o
+LOAD build/simple.pb.o
 LOAD build/main.o
 LOAD build/gpio.o
 LOAD build/can.o
@@ -2745,18 +3327,18 @@ LOAD c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/a
                 0x00000000080055ac                _malloc_r
  .text._sbrk_r  0x0000000008005660       0x20 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sbrkr.o)
                 0x0000000008005660                _sbrk_r
- .text.__malloc_lock
-                0x0000000008005680        0xc c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-mlock.o)
-                0x0000000008005680                __malloc_lock
- .text.__malloc_unlock
-                0x000000000800568c        0xc c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-mlock.o)
-                0x000000000800568c                __malloc_unlock
  .text.__retarget_lock_acquire_recursive
-                0x0000000008005698        0x2 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
-                0x0000000008005698                __retarget_lock_acquire_recursive
+                0x0000000008005680        0x2 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+                0x0000000008005680                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x000000000800569a        0x2 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
-                0x000000000800569a                __retarget_lock_release_recursive
+                0x0000000008005682        0x2 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+                0x0000000008005682                __retarget_lock_release_recursive
+ .text.__malloc_lock
+                0x0000000008005684        0xc c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-mlock.o)
+                0x0000000008005684                __malloc_lock
+ .text.__malloc_unlock
+                0x0000000008005690        0xc c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-mlock.o)
+                0x0000000008005690                __malloc_unlock
  .text._sbrk    0x000000000800569c       0x1c c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(sbrk.o)
                 0x000000000800569c                _sbrk
  .text.__udivmoddi4
@@ -2788,7 +3370,7 @@ LOAD c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/a
 .iplt           0x00000000080059a0        0x0
  .iplt          0x00000000080059a0        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp/crtbegin.o
 
-.rodata         0x00000000080059a0       0x90
+.rodata         0x00000000080059a0       0xf0
                 0x00000000080059a0                . = ALIGN (0x4)
  *(.rodata)
  .rodata        0x00000000080059a0       0x14 build/freertos.o
@@ -2818,42 +3400,51 @@ LOAD c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/a
  .rodata.vTaskStartScheduler.str1.4
                 0x0000000008005a28        0x8 build/tasks.o
                                           0x5 (size before relaxing)
-                0x0000000008005a30                . = ALIGN (0x4)
+ .rodata.__sf_fake_stderr
+                0x0000000008005a30       0x20 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
+                0x0000000008005a30                __sf_fake_stderr
+ .rodata.__sf_fake_stdin
+                0x0000000008005a50       0x20 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
+                0x0000000008005a50                __sf_fake_stdin
+ .rodata.__sf_fake_stdout
+                0x0000000008005a70       0x20 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
+                0x0000000008005a70                __sf_fake_stdout
+                0x0000000008005a90                . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x0000000008005a30        0x8
-                0x0000000008005a30                __exidx_start = .
+.ARM            0x0000000008005a90        0x8
+                0x0000000008005a90                __exidx_start = .
  *(.ARM.exidx*)
  .ARM.exidx.text.__udivmoddi4
-                0x0000000008005a30        0x8 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libgcc.a(_udivmoddi4.o)
-                0x0000000008005a38                __exidx_end = .
+                0x0000000008005a90        0x8 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libgcc.a(_udivmoddi4.o)
+                0x0000000008005a98                __exidx_end = .
 
-.rel.dyn        0x0000000008005a38        0x0
- .rel.iplt      0x0000000008005a38        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp/crtbegin.o
+.rel.dyn        0x0000000008005a98        0x0
+ .rel.iplt      0x0000000008005a98        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp/crtbegin.o
 
-.preinit_array  0x0000000008005a38        0x0
-                0x0000000008005a38                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x0000000008005a98        0x0
+                0x0000000008005a98                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x0000000008005a38                PROVIDE (__preinit_array_end = .)
+                0x0000000008005a98                PROVIDE (__preinit_array_end = .)
 
-.init_array     0x0000000008005a38        0x4
-                0x0000000008005a38                PROVIDE (__init_array_start = .)
+.init_array     0x0000000008005a98        0x4
+                0x0000000008005a98                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x0000000008005a38        0x4 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp/crtbegin.o
-                0x0000000008005a3c                PROVIDE (__init_array_end = .)
+ .init_array    0x0000000008005a98        0x4 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp/crtbegin.o
+                0x0000000008005a9c                PROVIDE (__init_array_end = .)
 
-.fini_array     0x0000000008005a3c        0x4
+.fini_array     0x0000000008005a9c        0x4
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x0000000008005a3c        0x4 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp/crtbegin.o
+ .fini_array    0x0000000008005a9c        0x4 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x0000000008005a40                _sidata = LOADADDR (.data)
+                0x0000000008005aa0                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000      0x1e4 load address 0x0000000008005a40
+.data           0x0000000020000000      0x1e4 load address 0x0000000008005aa0
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
@@ -2913,17 +3504,17 @@ LOAD c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/a
                 0x00000000200001e4                _edata = .
 
 .tm_clone_table
-                0x00000000200001e4        0x0 load address 0x0000000008005c24
+                0x00000000200001e4        0x0 load address 0x0000000008005c84
  .tm_clone_table
                 0x00000000200001e4        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp/crtbegin.o
  .tm_clone_table
                 0x00000000200001e4        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp/crtend.o
 
-.igot.plt       0x00000000200001e4        0x0 load address 0x0000000008005c24
+.igot.plt       0x00000000200001e4        0x0 load address 0x0000000008005c84
  .igot.plt      0x00000000200001e4        0x0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp/crtbegin.o
                 0x00000000200001e4                . = ALIGN (0x4)
 
-.bss            0x00000000200001e4     0x59d0 load address 0x0000000008005c24
+.bss            0x00000000200001e4     0x59d0 load address 0x0000000008005c84
                 0x00000000200001e4                _sbss = .
                 0x00000000200001e4                __bss_start__ = _sbss
  *(.bss)
@@ -3034,25 +3625,25 @@ LOAD c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/a
                 0x0000000020005b60                htim6
  COMMON         0x0000000020005ba0        0x4 build/stm32f2xx_hal.o
                 0x0000000020005ba0                uwTick
- COMMON         0x0000000020005ba4        0x4 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-reent.o)
-                0x0000000020005ba4                errno
- COMMON         0x0000000020005ba8        0x9 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
-                0x0000000020005ba8                __lock___atexit_recursive_mutex
-                0x0000000020005ba9                __lock___arc4random_mutex
-                0x0000000020005baa                __lock___env_recursive_mutex
-                0x0000000020005bab                __lock___sinit_recursive_mutex
-                0x0000000020005bac                __lock___malloc_recursive_mutex
-                0x0000000020005bad                __lock___at_quick_exit_mutex
-                0x0000000020005bae                __lock___dd_hash_mutex
-                0x0000000020005baf                __lock___tz_mutex
-                0x0000000020005bb0                __lock___sfp_recursive_mutex
+ COMMON         0x0000000020005ba4        0x9 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+                0x0000000020005ba4                __lock___atexit_recursive_mutex
+                0x0000000020005ba5                __lock___arc4random_mutex
+                0x0000000020005ba6                __lock___env_recursive_mutex
+                0x0000000020005ba7                __lock___sinit_recursive_mutex
+                0x0000000020005ba8                __lock___malloc_recursive_mutex
+                0x0000000020005ba9                __lock___at_quick_exit_mutex
+                0x0000000020005baa                __lock___dd_hash_mutex
+                0x0000000020005bab                __lock___tz_mutex
+                0x0000000020005bac                __lock___sfp_recursive_mutex
+ *fill*         0x0000000020005bad        0x3 
+ COMMON         0x0000000020005bb0        0x4 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-reent.o)
+                0x0000000020005bb0                errno
                 0x0000000020005bb4                . = ALIGN (0x4)
- *fill*         0x0000000020005bb1        0x3 
                 0x0000000020005bb4                _ebss = .
                 0x0000000020005bb4                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x0000000020005bb4     0x1004 load address 0x0000000008005c24
+                0x0000000020005bb4     0x1004 load address 0x0000000008005c84
                 0x0000000020005bb8                . = ALIGN (0x8)
  *fill*         0x0000000020005bb4        0x4 
                 0x0000000020005bb8                PROVIDE (end = .)
@@ -3170,23 +3761,25 @@ LOAD c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/a
  .ARM.attributes
                 0x0000000000000854       0x2d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sbrkr.o)
  .ARM.attributes
-                0x0000000000000881       0x2d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-mlock.o)
+                0x0000000000000881       0x2d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
  .ARM.attributes
-                0x00000000000008ae       0x2d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-reent.o)
+                0x00000000000008ae       0x2d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
  .ARM.attributes
-                0x00000000000008db       0x2d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+                0x00000000000008db       0x2d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-mlock.o)
  .ARM.attributes
-                0x0000000000000908       0x2d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(sbrk.o)
+                0x0000000000000908       0x2d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-reent.o)
  .ARM.attributes
-                0x0000000000000935       0x1d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+                0x0000000000000935       0x2d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(sbrk.o)
  .ARM.attributes
-                0x0000000000000952       0x2d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libgcc.a(_udivmoddi4.o)
+                0x0000000000000962       0x1d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libgcc.a(_aeabi_uldivmod.o)
  .ARM.attributes
-                0x000000000000097f       0x1d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libgcc.a(_dvmd_tls.o)
+                0x000000000000097f       0x2d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libgcc.a(_udivmoddi4.o)
  .ARM.attributes
-                0x000000000000099c       0x2d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp/crtend.o
+                0x00000000000009ac       0x1d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
-                0x00000000000009c9       0x1d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp/crtn.o
+                0x00000000000009c9       0x2d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp/crtend.o
+ .ARM.attributes
+                0x00000000000009f6       0x1d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp/crtn.o
 OUTPUT(build/TestUSB.elf elf32-littlearm)
 
 .debug_info     0x0000000000000000    0x32989
@@ -3614,7 +4207,7 @@ OUTPUT(build/TestUSB.elf elf32-littlearm)
  .comment       0x0000000000000068       0x69 build/usbd_ioreq.o
  .comment       0x0000000000000068       0x69 build/usbd_cdc.o
 
-.debug_frame    0x0000000000000000     0x5588
+.debug_frame    0x0000000000000000     0x56d4
  .debug_frame   0x0000000000000000       0x80 build/main.o
  .debug_frame   0x0000000000000080       0x30 build/gpio.o
  .debug_frame   0x00000000000000b0       0x68 build/can.o
@@ -3660,12 +4253,16 @@ OUTPUT(build/TestUSB.elf elf32-littlearm)
  .debug_frame   0x0000000000005338       0x38 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-freer.o)
  .debug_frame   0x0000000000005370       0x30 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-mallocr.o)
  .debug_frame   0x00000000000053a0       0x2c c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sbrkr.o)
- .debug_frame   0x00000000000053cc       0x30 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-mlock.o)
- .debug_frame   0x00000000000053fc       0x5c c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-reent.o)
- .debug_frame   0x0000000000005458       0xb0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
- .debug_frame   0x0000000000005508       0x20 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(sbrk.o)
- .debug_frame   0x0000000000005528       0x2c c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libgcc.a(_aeabi_uldivmod.o)
- .debug_frame   0x0000000000005554       0x34 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x00000000000053cc      0x14c c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
+ .debug_frame   0x0000000000005518       0xb0 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+ .debug_frame   0x00000000000055c8       0x30 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-mlock.o)
+ .debug_frame   0x00000000000055f8       0x5c c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-reent.o)
+ .debug_frame   0x0000000000005654       0x20 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(sbrk.o)
+ .debug_frame   0x0000000000005674       0x2c c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x00000000000056a0       0x34 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libgcc.a(_udivmoddi4.o)
+
+.stabstr        0x0000000000000000      0x14d
+ .stabstr       0x0000000000000000      0x14d c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(close.o)
 
 Cross Reference Table
 
@@ -4307,6 +4904,8 @@ SPI1_IRQHandler                                   build/startup_stm32f215xx.o
 SPI2_IRQHandler                                   build/startup_stm32f215xx.o
 SPI3_IRQHandler                                   build/startup_stm32f215xx.o
 SVC_Handler                                       build/port.o
+SimpleMessage_fields                              build/simple.pb.o
+                                                  build/usbCore.o
 StartDefaultTask                                  build/freertos.o
 SysTick_Handler                                   build/port.o
                                                   build/cmsis_os.o
@@ -4588,6 +5187,8 @@ __bss_start__                                     c:/users/user/appdata/roaming/
 __call_exitprocs                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-exit.o)
 __deregister_frame_info                           c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp/crtbegin.o
 __dso_handle                                      c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp/crtbegin.o
+__fp_lock_all                                     c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
+__fp_unlock_all                                   c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
 __init_array_end                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-init.o)
 __init_array_start                                c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-init.o)
 __libc_fini_array                                 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
@@ -4602,7 +5203,9 @@ __lock___env_recursive_mutex                      c:/users/user/appdata/roaming/
 __lock___malloc_recursive_mutex                   c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
                                                   c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-mlock.o)
 __lock___sfp_recursive_mutex                      c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
 __lock___sinit_recursive_mutex                    c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
 __lock___tz_mutex                                 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
 __malloc_free_list                                c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-mallocr.o)
                                                   c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-freer.o)
@@ -4618,41 +5221,157 @@ __preinit_array_start                             c:/users/user/appdata/roaming/
 __register_frame_info                             c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp/crtbegin.o
 __retarget_lock_acquire                           c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
 __retarget_lock_acquire_recursive                 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fflush.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf.o)
                                                   c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-mlock.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
 __retarget_lock_close                             c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
 __retarget_lock_close_recursive                   c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
 __retarget_lock_init                              c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
 __retarget_lock_init_recursive                    c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
 __retarget_lock_release                           c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
 __retarget_lock_release_recursive                 c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fflush.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf.o)
                                                   c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-mlock.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
 __retarget_lock_try_acquire                       c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
 __retarget_lock_try_acquire_recursive             c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
-__sf_fake_stderr                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-impure.o)
-__sf_fake_stdin                                   c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-impure.o)
-__sf_fake_stdout                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-impure.o)
+__sclose                                          c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-stdio.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
+__seofread                                        c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-stdio.o)
+__sf_fake_stderr                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fflush.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-wsetup.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-wbuf.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-impure.o)
+__sf_fake_stdin                                   c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fflush.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-wsetup.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-wbuf.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-impure.o)
+__sf_fake_stdout                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fflush.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-wsetup.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-wbuf.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-impure.o)
+__sflush_r                                        c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fflush.o)
+__sfmoreglue                                      c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
+__sfp                                             c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
+__sfp_lock_acquire                                c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
+__sfp_lock_release                                c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
+__sfputs_r                                        c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf.o)
+__sfvwrite_r                                      c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fvwrite.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf.o)
+__sinit                                           c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fflush.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-wsetup.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-wbuf.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-printf.o)
+__sinit_lock_acquire                              c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
+__sinit_lock_release                              c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
+__smakebuf_r                                      c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-makebuf.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-wsetup.o)
+__sprint_r                                        c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf.o)
+__sread                                           c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-stdio.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
+__sseek                                           c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-stdio.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
 __stack                                           c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+__swbuf                                           c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-wbuf.o)
+__swbuf_r                                         c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-wbuf.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf.o)
+__swhatbuf_r                                      c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-makebuf.o)
+__swrite                                          c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-stdio.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
+__swsetup_r                                       c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-wsetup.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fvwrite.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-wbuf.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf.o)
 __udivmoddi4                                      c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libgcc.a(_udivmoddi4.o)
                                                   c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+_cleanup                                          c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
+_cleanup_r                                        c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-makebuf.o)
+_close                                            c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(close.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-closer.o)
+_close_r                                          c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-closer.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-stdio.o)
 _ebss                                             build/startup_stm32f215xx.o
 _edata                                            build/startup_stm32f215xx.o
 _estack                                           build/startup_stm32f215xx.o
 _exit                                             c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(_exit.o)
                                                   c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-exit.o)
+_fflush_r                                         c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fflush.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fvwrite.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-wbuf.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
 _fini                                             c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp/crti.o
 _free_r                                           c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-freer.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-reallocr.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fvwrite.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fflush.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-wsetup.o)
                                                   c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-reent.o)
                                                   c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-malloc.o)
+_fstat                                            c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(fstat.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fstatr.o)
+_fstat_r                                          c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fstatr.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-makebuf.o)
+_fwalk                                            c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fwalk.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
+_fwalk_reent                                      c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fwalk.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fflush.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
 _global_impure_ptr                                c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-impure.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fflush.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
                                                   c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-exit.o)
 _impure_ptr                                       c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-impure.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fflush.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-wsetup.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-wbuf.o)
                                                   c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-reent.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-printf.o)
                                                   c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-malloc.o)
 _init                                             c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/thumb/v7-m/nofp/crti.o
                                                   c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-init.o)
+_iprintf_r                                        c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-printf.o)
+_isatty                                           c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(isatty.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-isattyr.o)
+_isatty_r                                         c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-isattyr.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-makebuf.o)
+_lseek                                            c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(lseek.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lseekr.o)
+_lseek_r                                          c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lseekr.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-stdio.o)
 _mainCRTStartup                                   c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
 _malloc_r                                         c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-mallocr.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-reallocr.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-makebuf.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fvwrite.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
                                                   c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-malloc.o)
+_malloc_usable_size_r                             c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-msizer.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-reallocr.o)
+_printf_common                                    c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
+_printf_float                                     c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf.o)
+_printf_i                                         c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf.o)
+_printf_r                                         c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-printf.o)
+_read                                             c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(read.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-readr.o)
+_read_r                                           c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-readr.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-stdio.o)
+_realloc_r                                        c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-reallocr.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fvwrite.o)
 _reclaim_reent                                    c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-reent.o)
 _sbrk                                             c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(sbrk.o)
                                                   c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sbrkr.o)
@@ -4662,14 +5381,34 @@ _sbss                                             build/startup_stm32f215xx.o
 _sdata                                            build/startup_stm32f215xx.o
 _sidata                                           build/startup_stm32f215xx.o
 _start                                            c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+_vfiprintf_r                                      c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf.o)
+_vfprintf_r                                       c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-printf.o)
+_write                                            c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(write.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-writer.o)
+_write_r                                          c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-writer.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-stdio.o)
 atexit                                            c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
 cleanup_glue                                      c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-reent.o)
 defaultTaskHandle                                 build/freertos.o
 end                                               c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(sbrk.o)
 errno                                             c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-reent.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(write.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(read.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(lseek.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(isatty.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(fstat.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(close.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-isattyr.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fstatr.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-readr.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lseekr.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-closer.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-writer.o)
                                                   c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sbrkr.o)
 exit                                              c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-exit.o)
                                                   c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+fflush                                            c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fflush.o)
 free                                              c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-malloc.o)
                                                   build/usbd_cdc.o
 g_pfnVectors                                      build/startup_stm32f215xx.o
@@ -4694,16 +5433,28 @@ hspi3                                             build/spi.o
 htim6                                             build/stm32f2xx_hal_timebase_tim.o
                                                   build/stm32f2xx_it.o
 huart4                                            build/usart.o
+iprintf                                           c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-printf.o)
 main                                              build/main.o
                                                   build/startup_stm32f215xx.o
                                                   c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
 malloc                                            c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-malloc.o)
                                                   build/usbd_cdc.o
+memchr                                            c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memchr-stub.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fvwrite.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf.o)
 memcpy                                            c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memcpy-stub.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-reallocr.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fvwrite.o)
                                                   build/stream_buffer.o
                                                   build/queue.o
+                                                  build/pb_decode.o
+memmove                                           c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memmove.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-fvwrite.o)
 memset                                            c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memset.o)
+                                                  c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-findfp.o)
                                                   build/stream_buffer.o
+                                                  build/pb_decode.o
                                                   c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
 osAbortDelay                                      build/cmsis_os.o
 osDelay                                           build/cmsis_os.o
@@ -4763,8 +5514,50 @@ osTimerStart                                      build/cmsis_os.o
 osTimerStop                                       build/cmsis_os.o
 pFlash                                            build/stm32f2xx_hal_flash.o
                                                   build/stm32f2xx_hal_flash_ex.o
+pb_close_string_substream                         build/pb_decode.o
+pb_decode                                         build/pb_decode.o
+pb_decode_delimited                               build/pb_decode.o
+pb_decode_delimited_noinit                        build/pb_decode.o
+pb_decode_fixed32                                 build/pb_decode.o
+pb_decode_fixed64                                 build/pb_decode.o
+pb_decode_noinit                                  build/pb_decode.o
+pb_decode_nullterminated                          build/pb_decode.o
+pb_decode_svarint                                 build/pb_decode.o
+pb_decode_tag                                     build/pb_decode.o
+pb_decode_varint                                  build/pb_decode.o
+pb_decode_varint32                                build/pb_decode.o
+pb_encode                                         build/pb_encode.o
+                                                  build/usbCore.o
+pb_encode_delimited                               build/pb_encode.o
+pb_encode_fixed32                                 build/pb_encode.o
+pb_encode_fixed64                                 build/pb_encode.o
+pb_encode_nullterminated                          build/pb_encode.o
+pb_encode_string                                  build/pb_encode.o
+pb_encode_submessage                              build/pb_encode.o
+pb_encode_svarint                                 build/pb_encode.o
+pb_encode_tag                                     build/pb_encode.o
+pb_encode_tag_for_field                           build/pb_encode.o
+pb_encode_varint                                  build/pb_encode.o
+pb_field_iter_begin                               build/pb_common.o
+                                                  build/pb_encode.o
+                                                  build/pb_decode.o
+pb_field_iter_find                                build/pb_common.o
+                                                  build/pb_decode.o
+pb_field_iter_next                                build/pb_common.o
+                                                  build/pb_encode.o
+                                                  build/pb_decode.o
+pb_get_encoded_size                               build/pb_encode.o
+pb_istream_from_buffer                            build/pb_decode.o
+pb_make_string_substream                          build/pb_decode.o
+pb_ostream_from_buffer                            build/pb_encode.o
+                                                  build/usbCore.o
+pb_read                                           build/pb_decode.o
+pb_skip_field                                     build/pb_decode.o
+pb_write                                          build/pb_encode.o
 pcQueueGetName                                    build/queue.o
 pcTaskGetName                                     build/tasks.o
+printf                                            c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-printf.o)
+                                                  build/usbCore.o
 pvPortMalloc                                      build/heap_4.o
                                                   build/cmsis_os.o
                                                   build/tasks.o
@@ -4877,6 +5670,8 @@ vTaskSuspendAll                                   build/tasks.o
                                                   build/event_groups.o
 vTaskSwitchContext                                build/tasks.o
                                                   build/port.o
+vfiprintf                                         c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf.o)
+vfprintf                                          c:/users/user/appdata/roaming/gnumcueclipse/armembeddedgcc/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf.o)
 xEventGroupClearBits                              build/event_groups.o
 xEventGroupCreate                                 build/event_groups.o
 xEventGroupGetBitsFromISR                         build/event_groups.o
