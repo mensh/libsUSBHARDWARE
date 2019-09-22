@@ -13,7 +13,7 @@
 #include <../nanopb/pb_encode.h>
 #include <../nanopb/pb_decode.h>
 
-uint8_t InitMAPFunc(void)
+uint8_t TestSendProto(void)
 {
     uint8_t buffer[128];
     size_t message_length;
